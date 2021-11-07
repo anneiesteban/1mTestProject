@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636279083950' stop='1636279086630'>
+    <name>One Million Page</name>
+    <title>One Million Page</title>
+    <test-cases>
+        <test-case start='1636279083950' status='broken' stop='1636279086629'>
+            <name>should verify correct tab name</name>
+            <title>should verify correct tab name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636279083953' status='passed' stop='1636279085756'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ec22b8f4-ac4a-4379-bddb-3eadda7af1db-attachment.json' type='application/json' size='215'/>
+                        <attachment title='Response' source='cb337d75-8a18-4e4b-98aa-2f92b282d332-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636279083958' status='passed' stop='1636279083979'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='be2f662e-dbd8-4166-93c9-96d6f96fb862-attachment.json' type='application/json' size='74'/>
+                                <attachment title='Response' source='2514ff22-c709-40f4-8e38-4b0d0688e489-attachment.json' type='application/json' size='1156'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1636279083987' status='passed' stop='1636279085743'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='e73d7a30-1148-42f3-85ae-bf70771f6eff-attachment.json' type='application/json' size='215'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1636279085759' status='passed' stop='1636279085782'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='95b767ca-728f-412c-8717-6035246d2ed3-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='a26c2405-550c-4c1e-baec-6fd19ec860da-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636279085784' status='passed' stop='1636279086396'>
+                    <name>POST /session/:sessionId/element/8c86f470-d8d8-45ca-a800-3c94ee97c19e/click</name>
+                    <title>POST /session/:sessionId/element/8c86f470-d8d8-45ca-a800-3c94ee97c19e/click</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1636279085786' status='passed' stop='1636279085889'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='3c030b6a-14a7-4173-bfc4-d5c2569f5935-attachment.json' type='application/json' size='74'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1636279086398' status='passed' stop='1636279086628'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='fef68ddc-34b9-45dd-8608-f18842fb07eb-attachment.png' type='image/png' size='195507'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636279086400' status='passed' stop='1636279086432'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Response' source='0b7bb686-4d8c-45f7-b340-0c735c59a392-attachment.json' type='application/json' size='45'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.call is not a function</message>
+                <stack-trace>TypeError: browser.call is not a function
+                    at Object.toHaveTitleFn (C:\Users\Marianne\volvo-1m\node_modules\expect-webdriverio\lib\matchers\browser\toHaveTitle.js:9:20)
+                    at Object.toHaveTitleContainingFn (C:\Users\Marianne\volvo-1m\node_modules\expect-webdriverio\lib\matchers\browser\toHaveTitleContaining.js:7:40)
+                    at Object.runJestExpect (C:\Users\Marianne\volvo-1m\node_modules\expect-webdriverio\lib\util\expectAdapter.js:10:15)
+                    at Object.toHaveTitleContaining (C:\Users\Marianne\volvo-1m\node_modules\expect-webdriverio\lib\matchers\browser\toHaveTitleContaining.js:13:38)
+                    at __EXTERNAL_MATCHER_TRAP__ (C:\Users\Marianne\volvo-1m\node_modules\expect\build\index.js:386:30)
+                    at Object.throwingMatcher [as toHaveTitleContaining] (C:\Users\Marianne\volvo-1m\node_modules\expect\build\index.js:387:15)
+                    at Context.&lt;anonymous> (C:\Users\Marianne\volvo-1m\test\specs\one.million.spec.js:19:31)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

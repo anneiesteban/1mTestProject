@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636278191710' stop='1636278193043'>
+    <name>One Million Page</name>
+    <title>One Million Page</title>
+    <test-cases>
+        <test-case start='1636278191710' status='broken' stop='1636278193040'>
+            <name>should verify correct tab name</name>
+            <title>should verify correct tab name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636278191712' status='passed' stop='1636278192891'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='4a8810d1-0437-4817-90e8-9a36387f1d0c-attachment.json' type='application/json' size='74'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636278192893' status='passed' stop='1636278193039'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='36f34407-9a1e-4826-9d56-b54bc57b6341-attachment.png' type='image/png' size='82605'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636278192895' status='passed' stop='1636278192910'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Response' source='1039a935-6139-4ad4-8cc4-3b5f418f520b-attachment.json' type='application/json' size='45'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.call is not a function</message>
+                <stack-trace>TypeError: browser.call is not a function
+                    at Object.toHaveTitleFn (C:\Users\Marianne\volvo-1m\node_modules\expect-webdriverio\lib\matchers\browser\toHaveTitle.js:9:20)
+                    at Object.toHaveTitleContainingFn (C:\Users\Marianne\volvo-1m\node_modules\expect-webdriverio\lib\matchers\browser\toHaveTitleContaining.js:7:40)
+                    at Object.runJestExpect (C:\Users\Marianne\volvo-1m\node_modules\expect-webdriverio\lib\util\expectAdapter.js:10:15)
+                    at Object.toHaveTitleContaining (C:\Users\Marianne\volvo-1m\node_modules\expect-webdriverio\lib\matchers\browser\toHaveTitleContaining.js:13:38)
+                    at __EXTERNAL_MATCHER_TRAP__ (C:\Users\Marianne\volvo-1m\node_modules\expect\build\index.js:386:30)
+                    at Object.throwingMatcher [as toHaveTitleContaining] (C:\Users\Marianne\volvo-1m\node_modules\expect\build\index.js:387:15)
+                    at Context.&lt;anonymous> (C:\Users\Marianne\volvo-1m\test\specs\one.million.spec.js:12:31)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

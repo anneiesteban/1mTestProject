@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636300904674' stop='1636300906217'>
+    <name>Volvo Logo One Million Page</name>
+    <title>Volvo Logo One Million Page</title>
+    <test-cases>
+        <test-case start='1636300904675' status='broken' stop='1636300906212'>
+            <name>should verify volvo logo link successfully opened</name>
+            <title>should verify volvo logo link successfully opened</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636300904677' status='passed' stop='1636300905868'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='58b5f6ac-9dca-4851-862e-099fd43e24af-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='1117f5ea-4f4e-47c8-a733-28339331856a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636300904683' status='passed' stop='1636300905852'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='f28e80be-6eb7-4365-bb18-fd0a15b16382-attachment.json' type='application/json' size='59'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1636300905874' status='passed' stop='1636300905897'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='bdd22aa8-f8a9-4c6e-b56a-636d25b463cf-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='8dd7d5c6-b242-42bb-afd4-9b6883e59c5c-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636300905898' status='passed' stop='1636300905916'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ca723b48-41fe-458a-8f62-908047ab65c3-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='ce61f25f-a41d-4b54-89b5-f04f1f9d249f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636300905918' status='passed' stop='1636300906066'>
+                    <name>POST /session/:sessionId/element/902ec9c4-ff81-43e6-a0b2-cf6f06b1e7cc/click</name>
+                    <title>POST /session/:sessionId/element/902ec9c4-ff81-43e6-a0b2-cf6f06b1e7cc/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1636300906067' status='passed' stop='1636300906211'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b158965a-904f-49bf-a39f-e2232fe07448-attachment.png' type='image/png' size='97054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this.volvoLogo.click is not a function</message>
+                <stack-trace>TypeError: this.volvoLogo.click is not a function
+                    at OneMillionPage.volvoLogo (C:\Users\Marianne\volvo-1m\test\pageobjects\one.million.page.js:17:30)
+                    at Context.&lt;anonymous> (C:\Users\Marianne\volvo-1m\test\specs\volvo.logo.spec.js:8:31)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

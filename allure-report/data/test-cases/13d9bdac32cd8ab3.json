@@ -1,0 +1,215 @@
+{
+  "uid" : "13d9bdac32cd8ab3",
+  "name" : "should play alex video",
+  "fullName" : "Summer Video One Million Page.should play alex video",
+  "historyId" : "cdc7197e2ebb80dd155ba6221ea2e0fa",
+  "time" : {
+    "start" : 1636302427264,
+    "stop" : 1636302427272,
+    "duration" : 8
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1636302427264,
+        "stop" : 0,
+        "duration" : -1636302427264
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636302427268,
+          "stop" : 0,
+          "duration" : -1636302427268
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "462767901ad9d760",
+          "name" : "Request",
+          "source" : "462767901ad9d760.json",
+          "type" : "application/json",
+          "size" : 166
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "a90cbb1d35d0ce9e",
+        "name" : "Request",
+        "source" : "a90cbb1d35d0ce9e.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Summer Video One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Summer Video One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should play alex video"
+  }, {
+    "name" : "package",
+    "value" : "Summer Video One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6e7ac71303471fbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302397866,
+        "stop" : 1636302397876,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "f00982b7a48e9be2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302339899,
+        "stop" : 1636302339914,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "1723c553a214e636",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302279845,
+        "stop" : 1636302279853,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "8eac0acc718d3ada",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302235872,
+        "stop" : 1636302235883,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "dd22f5ddebfb07c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302134088,
+        "stop" : 1636302134098,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "ad9c225313be60a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302069290,
+        "stop" : 1636302069298,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "a6d8185899f1c1cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302007951,
+        "stop" : 1636302007963,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "909243079af21313",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636301819677,
+        "stop" : 1636301820796,
+        "duration" : 1119
+      }
+    }, {
+      "uid" : "82fa3696069c12bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293483968,
+        "stop" : 1636293485139,
+        "duration" : 1171
+      }
+    }, {
+      "uid" : "e2b430637b95f02b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293426779,
+        "stop" : 1636293427972,
+        "duration" : 1193
+      }
+    }, {
+      "uid" : "59e3ef1106e98833",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293339601,
+        "stop" : 1636293340763,
+        "duration" : 1162
+      }
+    }, {
+      "uid" : "d5897bccb4c5c31",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)",
+      "time" : {
+        "start" : 1636293251825,
+        "stop" : 1636293262335,
+        "duration" : 10510
+      }
+    }, {
+      "uid" : "8757c16a10211fcd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293125654,
+        "stop" : 1636293128529,
+        "duration" : 2875
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13d9bdac32cd8ab3.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

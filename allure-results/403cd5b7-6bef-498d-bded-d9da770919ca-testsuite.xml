@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636299723405' stop='1636299724803'>
+    <name>Volvo Logo One Million Page</name>
+    <title>Volvo Logo One Million Page</title>
+    <test-cases>
+        <test-case start='1636299723405' status='broken' stop='1636299724796'>
+            <name>should verify volvo logo link successfully opened</name>
+            <title>should verify volvo logo link successfully opened</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636299723407' status='broken' stop='1636299724796'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='212ed814-d84e-41f0-accf-1741e84a31e9-attachment.json' type='application/json' size='74'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636299723413' status='passed' stop='1636299724663'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='4b0d4b40-3363-40ab-b3ad-0fa2e28bdd17-attachment.json' type='application/json' size='59'/>
+                                <attachment title='Response' source='56be95d5-8284-40ba-8b03-42cbea897ed3-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps>
+                                <step start='1636299723417' status='passed' stop='1636299724648'>
+                                    <name>GET /session/:sessionId/screenshot</name>
+                                    <title>GET /session/:sessionId/screenshot</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1636299724669' status='passed' stop='1636299724795'>
+                            <name>POST /session/:sessionId/execute/sync</name>
+                            <title>POST /session/:sessionId/execute/sync</title>
+                            <attachments>
+                                <attachment title='Request' source='519537eb-dc64-4f7c-b129-c45ae557a9a2-attachment.json' type='application/json' size='8337'/>
+                                <attachment title='Screenshot' source='db15ee47-0ab5-4436-b78f-a9b3540fef0f-attachment.png' type='image/png' size='82207'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1636299724799' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='deb89479-ae2f-4f3c-9411-6d6135da1c6b-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='52f41952-edc9-4c52-a8e5-d7b74e8f1ca7-attachment.json' type='application/json' size='4'/>
+            </attachments>
+            <failure>
+                <message>this.volvoLogo.waitForDisplayed is not a function</message>
+                <stack-trace>TypeError: this.volvoLogo.waitForDisplayed is not a function
+                    at OneMillionPage.volvoLogo (C:\Users\Marianne\volvo-1m\test\pageobjects\one.million.page.js:13:30)
+                    at Context.&lt;anonymous> (C:\Users\Marianne\volvo-1m\test\specs\volvo.logo.spec.js:9:30)
+                    at Context.executeAsync (C:\Users\Marianne\volvo-1m\node_modules\@wdio\utils\build\shim.js:325:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\Marianne\volvo-1m\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

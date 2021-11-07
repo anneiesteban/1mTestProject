@@ -1,0 +1,488 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "My Login application",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "35af2fa71e0d3848",
+      "parentUid" : "ff9b43c34a817b44fa9b6edf61b00141",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636273526943,
+        "stop" : 1636273528712,
+        "duration" : 1769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "ff9b43c34a817b44fa9b6edf61b00141"
+  }, {
+    "name" : "One Million Page",
+    "children" : [ {
+      "name" : "should play intro video",
+      "uid" : "d93932c98f6fa85d",
+      "parentUid" : "22b2968652637a7b31791a8fcfde44b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636278138212,
+        "stop" : 1636278138219,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "\"before all\" hook for One Million Page",
+      "uid" : "b1e7a12373cf0b85",
+      "parentUid" : "22b2968652637a7b31791a8fcfde44b0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636279000206,
+        "stop" : 1636279000245,
+        "duration" : 39
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "2dc07e86dbd69baa",
+      "parentUid" : "22b2968652637a7b31791a8fcfde44b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636285210622,
+        "stop" : 1636285211834,
+        "duration" : 1212
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "22b2968652637a7b31791a8fcfde44b0"
+  }, {
+    "name" : "Menu One Million Page",
+    "children" : [ {
+      "name" : "should verify decades of innovation link successfully opened",
+      "uid" : "9eee3e9c6cdd770e",
+      "parentUid" : "3f1cfe6ba5d5259537e3c6cde8d8a9ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636294290426,
+        "stop" : 1636294293823,
+        "duration" : 3397
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify menu successfully opened",
+      "uid" : "affc6f4e80638b5c",
+      "parentUid" : "3f1cfe6ba5d5259537e3c6cde8d8a9ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306506905,
+        "stop" : 1636306511545,
+        "duration" : 4640
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "3f1cfe6ba5d5259537e3c6cde8d8a9ff"
+  }, {
+    "name" : "Footer Privacy One Million Page",
+    "children" : [ {
+      "name" : "should verify privacy legal link successfully opened",
+      "uid" : "74a54844de0a67cd",
+      "parentUid" : "2e570cb87a3e287b90722eabf668c24f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636294842515,
+        "stop" : 1636294845763,
+        "duration" : 3248
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify footer privacy link successfully opened",
+      "uid" : "2bc0fea7d5c1b0ae",
+      "parentUid" : "2e570cb87a3e287b90722eabf668c24f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636307783784,
+        "stop" : 1636307787395,
+        "duration" : 3611
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "2e570cb87a3e287b90722eabf668c24f"
+  }, {
+    "name" : "Tab Title One Million Page",
+    "children" : [ {
+      "name" : "should verify correct tab name",
+      "uid" : "8b8422c1f68176ef",
+      "parentUid" : "7b412d0ce51967ec99e2e4c170562dd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636301422171,
+        "stop" : 1636301423920,
+        "duration" : 1749
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "7b412d0ce51967ec99e2e4c170562dd9"
+  }, {
+    "name" : "Summer Video One Million Page",
+    "children" : [ {
+      "name" : "should play summer video",
+      "uid" : "482e6efebb46b9b7",
+      "parentUid" : "88dc9b6ecd01e45db76d5df4be5d04e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302423839,
+        "stop" : 1636302425179,
+        "duration" : 1340
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "a270bf89ef623d61",
+      "parentUid" : "88dc9b6ecd01e45db76d5df4be5d04e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302425183,
+        "stop" : 1636302425204,
+        "duration" : 21
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "5f488eeb8f7a3bbc",
+      "parentUid" : "88dc9b6ecd01e45db76d5df4be5d04e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302425206,
+        "stop" : 1636302427263,
+        "duration" : 2057
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "13d9bdac32cd8ab3",
+      "parentUid" : "88dc9b6ecd01e45db76d5df4be5d04e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302427264,
+        "stop" : 1636302427272,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "88dc9b6ecd01e45db76d5df4be5d04e1"
+  }, {
+    "name" : "Our Cars One Million Page",
+    "children" : [ {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "26a7af7f462781f1",
+      "parentUid" : "f7d0b67b3b47c5ccd52ca531afdc3cb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636305946907,
+        "stop" : 1636305951457,
+        "duration" : 4550
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "f7d0b67b3b47c5ccd52ca531afdc3cb7"
+  }, {
+    "name" : "Video One Million Page",
+    "children" : [ {
+      "name" : "should play summer video",
+      "uid" : "10ac94e91ba28004",
+      "parentUid" : "b6848e1e90d526ae54e83b98ddb182cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306287452,
+        "stop" : 1636306290134,
+        "duration" : 2682
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "6094a8da91202ba",
+      "parentUid" : "b6848e1e90d526ae54e83b98ddb182cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306290134,
+        "stop" : 1636306291115,
+        "duration" : 981
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "97b59628c615ae04",
+      "parentUid" : "b6848e1e90d526ae54e83b98ddb182cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306291115,
+        "stop" : 1636306292145,
+        "duration" : 1030
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "db496cb2e58a4fe6",
+      "parentUid" : "b6848e1e90d526ae54e83b98ddb182cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306292145,
+        "stop" : 1636306293237,
+        "duration" : 1092
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "b6848e1e90d526ae54e83b98ddb182cd"
+  }, {
+    "name" : "Intro Video One Million Page",
+    "children" : [ {
+      "name" : "should play intro video",
+      "uid" : "6de7bb4c74a06680",
+      "parentUid" : "e295b44c5b5084ace9474ef05d8f4126",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306737323,
+        "stop" : 1636306740214,
+        "duration" : 2891
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "e295b44c5b5084ace9474ef05d8f4126"
+  }, {
+    "name" : "Footer Social Media One Million Page",
+    "children" : [ {
+      "name" : "should verify footer social media link successfully opened",
+      "uid" : "e7d4f096174ea0",
+      "parentUid" : "a39ddacf79b2e33dc185aac822ed587a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636307386385,
+        "stop" : 1636307389451,
+        "duration" : 3066
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "a39ddacf79b2e33dc185aac822ed587a"
+  }, {
+    "name" : "Volvo Logo One Million Page",
+    "children" : [ {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "7c024c4fa3d697f7",
+      "parentUid" : "449eef702f6eddea3430f88cb13c8d0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636307616664,
+        "stop" : 1636307623131,
+        "duration" : 6467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "449eef702f6eddea3430f88cb13c8d0f"
+  }, {
+    "name" : "Footer Legal One Million Page",
+    "children" : [ {
+      "name" : "should verify footer legal link successfully opened",
+      "uid" : "ffd453b3d62ca379",
+      "parentUid" : "fed3f69b09a2ad8c334664c3e4bffa1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636307851893,
+        "stop" : 1636307854968,
+        "duration" : 3075
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "fed3f69b09a2ad8c334664c3e4bffa1f"
+  }, {
+    "name" : "Footer Cookies One Million Page",
+    "children" : [ {
+      "name" : "should verify footer cookies link successfully opened",
+      "uid" : "de130272e86f0bf1",
+      "parentUid" : "dce5c68ac9c7354c77a83bade954f8b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636307940105,
+        "stop" : 1636307943108,
+        "duration" : 3003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "dce5c68ac9c7354c77a83bade954f8b4"
+  }, {
+    "name" : "Explore Model Recharge One Million Page",
+    "children" : [ {
+      "name" : "should verify explore model recharge link successfully opened",
+      "uid" : "2430119c25199065",
+      "parentUid" : "58019c8f3b8760ca5f849271b1b7c6c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636308071329,
+        "stop" : 1636308074640,
+        "duration" : 3311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "58019c8f3b8760ca5f849271b1b7c6c7"
+  }, {
+    "name" : "Explore Model Shop One Million Page",
+    "children" : [ {
+      "name" : "should verify explore model shop link successfully opened",
+      "uid" : "c9d90a66595311e8",
+      "parentUid" : "de92bab3f6b485ed3f9a044357d018f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636308297139,
+        "stop" : 1636308300860,
+        "duration" : 3721
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "de92bab3f6b485ed3f9a044357d018f0"
+  }, {
+    "name" : "Explore Model Mild Hybrid Cars One Million Page",
+    "children" : [ {
+      "name" : "should verify explore model mild hybrid cars link successfully opened",
+      "uid" : "19a530c77126fd4e",
+      "parentUid" : "d73e2ca72b66cebc08587158b021c918",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636308373678,
+        "stop" : 1636308376724,
+        "duration" : 3046
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "d73e2ca72b66cebc08587158b021c918"
+  }, {
+    "name" : "Explore Model Learn One Million Page",
+    "children" : [ {
+      "name" : "should verify explore model learn link successfully opened",
+      "uid" : "147607aea721f731",
+      "parentUid" : "c5a0b3e8ee37c8ccf8bafb6193b9dc6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636308466518,
+        "stop" : 1636308470043,
+        "duration" : 3525
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "c5a0b3e8ee37c8ccf8bafb6193b9dc6d"
+  }, {
+    "name" : "Decades of Innovation One Million Page",
+    "children" : [ {
+      "name" : "should verify decades of innovation link successfully opened",
+      "uid" : "f42e344121c7f531",
+      "parentUid" : "bb9a68aa4f218a4cfb7103ed999803fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636308535398,
+        "stop" : 1636308538709,
+        "duration" : 3311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "bb9a68aa4f218a4cfb7103ed999803fe"
+  }, {
+    "name" : "Car Safety One Million Page",
+    "children" : [ {
+      "name" : "should verify car safety link successfully opened",
+      "uid" : "6d95935feea90fcd",
+      "parentUid" : "bde4261237cc602c28e538c6061f867f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636308613781,
+        "stop" : 1636308616843,
+        "duration" : 3062
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify car safety driver assistance link successfully opened",
+      "uid" : "9c7909c732fb9d43",
+      "parentUid" : "bde4261237cc602c28e538c6061f867f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636308765320,
+        "stop" : 1636308769522,
+        "duration" : 4202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "bde4261237cc602c28e538c6061f867f"
+  }, {
+    "name" : "Car Safety Child Safety One Million Page",
+    "children" : [ {
+      "name" : "should verify car safety Child Safety link successfully opened",
+      "uid" : "736d7633b55b729f",
+      "parentUid" : "2f96edbc1ea9bf5fc84208e16f8bc745",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636309100913,
+        "stop" : 1636309105682,
+        "duration" : 4769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "2f96edbc1ea9bf5fc84208e16f8bc745"
+  } ]
+}

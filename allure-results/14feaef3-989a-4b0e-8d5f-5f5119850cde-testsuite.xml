@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636307566065' stop='1636307567493'>
+    <name>Volvo Logo One Million Page</name>
+    <title>Volvo Logo One Million Page</title>
+    <test-cases>
+        <test-case start='1636307566065' status='broken' stop='1636307567467'>
+            <name>should verify volvo logo link successfully opened</name>
+            <title>should verify volvo logo link successfully opened</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636307566067' status='broken' stop='1636307567467'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='88e04c6c-b958-4433-b6a9-1987aa6cd50f-attachment.json' type='application/json' size='74'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636307566073' status='passed' stop='1636307567466'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='afd73f8e-9f71-4ca1-8b50-2bc8405a4b67-attachment.png' type='image/png' size='81856'/>
+                            </attachments>
+                            <steps>
+                                <step start='1636307566075' status='passed' stop='1636307567319'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='e8548a0e-bdd3-48dd-a944-061981f3607b-attachment.json' type='application/json' size='59'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1636307567477' status='undefined'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='c348b839-6681-4b79-92f3-b753934261a8-attachment.json' type='application/json' size='8337'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='50216d0f-a959-4d23-8de4-00fecc98bc7d-attachment.json' type='application/json' size='83'/>
+            </attachments>
+            <failure>
+                <message>oneMillionPage.volvoLogo.click is not a function</message>
+                <stack-trace>TypeError: oneMillionPage.volvoLogo.click is not a function
+                    at Context.&lt;anonymous> (C:\Users\Marianne\volvo-1m\test\specs\volvo.logo.spec.js:9:41)
+                    at Context.executeAsync (C:\Users\Marianne\volvo-1m\node_modules\@wdio\utils\build\shim.js:325:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\Marianne\volvo-1m\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

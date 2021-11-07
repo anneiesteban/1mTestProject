@@ -1,0 +1,156 @@
+{
+  "uid" : "e5731621bcb344f6",
+  "name" : "should verify volvo logo link successfully opened",
+  "fullName" : "Volvo Logo One Million Page.should verify volvo logo link successfully opened",
+  "historyId" : "13db267487dc285f5af530738df04d2e",
+  "time" : {
+    "start" : 1636300024529,
+    "stop" : 1636300025972,
+    "duration" : 1443
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1636300024531,
+        "stop" : 0,
+        "duration" : -1636300024531
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1636300024538,
+          "stop" : 1636300025968,
+          "duration" : 1430
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636300024543,
+            "stop" : 1636300024556,
+            "duration" : 13
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "3687708bc24ad1e",
+            "name" : "Response",
+            "source" : "3687708bc24ad1e.json",
+            "type" : "application/json",
+            "size" : 1000
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636300024564,
+            "stop" : 1636300025960,
+            "duration" : 1396
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "c77a447ad9cd3481",
+            "name" : "Request",
+            "source" : "c77a447ad9cd3481.json",
+            "type" : "application/json",
+            "size" : 59
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "c909c63c07cef98d",
+          "name" : "Request",
+          "source" : "c909c63c07cef98d.json",
+          "type" : "application/json",
+          "size" : 74
+        }, {
+          "uid" : "eb7c243cfc6fe00d",
+          "name" : "Response",
+          "source" : "eb7c243cfc6fe00d.json",
+          "type" : "application/json",
+          "size" : 61
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 4,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "629865631257f854",
+        "name" : "Request",
+        "source" : "629865631257f854.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 5,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Logo One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Logo One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify volvo logo link successfully opened"
+  }, {
+    "name" : "package",
+    "value" : "Volvo Logo One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e5731621bcb344f6.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

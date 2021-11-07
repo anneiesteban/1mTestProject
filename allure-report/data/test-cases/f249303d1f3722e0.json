@@ -1,0 +1,87 @@
+{
+  "uid" : "f249303d1f3722e0",
+  "name" : "should verify correct tab name",
+  "fullName" : "One Million Page.should verify correct tab name",
+  "historyId" : "df7eedce770b355d180f02320517ce37",
+  "time" : {
+    "start" : 1636277057130,
+    "stop" : 1636277058484,
+    "duration" : 1354
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1636277057131,
+        "stop" : 1636277058483,
+        "duration" : 1352
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db2d2c7f1083e55b",
+        "name" : "Request",
+        "source" : "db2d2c7f1083e55b.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify correct tab name"
+  }, {
+    "name" : "package",
+    "value" : "One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f249303d1f3722e0.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"__next\"]/div[1]/descendant::a"
+}

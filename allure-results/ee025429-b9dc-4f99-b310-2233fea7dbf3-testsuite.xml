@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636279000206' stop='1636279000245'>
+    <name>One Million Page</name>
+    <title>One Million Page</title>
+    <test-cases>
+        <test-case start='1636279000206' status='broken' stop='1636279000245'>
+            <name>"before all" hook for One Million Page</name>
+            <title>"before all" hook for One Million Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636279000208' status='broken' stop='1636279000244'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='47270f9a-708d-4a98-9566-8ec55125b1f4-attachment.json' type='application/json' size='215'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636279000214' status='passed' stop='1636279000237'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='23a24a53-4ff6-4084-a311-e8fa06be6cbe-attachment.json' type='application/json' size='74'/>
+                                <attachment title='Response' source='59a8f9d0-c555-4411-ad02-6293621d4457-attachment.json' type='application/json' size='1156'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>acceptCookie is not defined</message>
+                <stack-trace>ReferenceError: acceptCookie is not defined
+                    at Context.&lt;anonymous> (C:\Users\Marianne\volvo-1m\test\specs\one.million.spec.js:9:27)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,208 @@
+{
+  "uid" : "7c3301110a19aad5",
+  "name" : "should verify volvo logo link successfully opened",
+  "fullName" : "Volvo Logo One Million Page.should verify volvo logo link successfully opened",
+  "historyId" : "13db267487dc285f5af530738df04d2e",
+  "time" : {
+    "start" : 1636300170151,
+    "stop" : 1636300171737,
+    "duration" : 1586
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "this.volvoLogo.waitForDisplayed is not a function",
+  "statusTrace" : "TypeError: this.volvoLogo.waitForDisplayed is not a function\n                    at OneMillionPage.volvoLogo (C:\\Users\\Marianne\\volvo-1m\\test\\pageobjects\\one.million.page.js:13:23)\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\volvo.logo.spec.js:8:30)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "this.volvoLogo.waitForDisplayed is not a function",
+    "statusTrace" : "TypeError: this.volvoLogo.waitForDisplayed is not a function\n                    at OneMillionPage.volvoLogo (C:\\Users\\Marianne\\volvo-1m\\test\\pageobjects\\one.million.page.js:13:23)\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\volvo.logo.spec.js:8:30)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1636300170153,
+        "stop" : 1636300171436,
+        "duration" : 1283
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636300170159,
+          "stop" : 1636300171421,
+          "duration" : 1262
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "56abf90bfc726fb9",
+          "name" : "Request",
+          "source" : "56abf90bfc726fb9.json",
+          "type" : "application/json",
+          "size" : 59
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "e4195b818d791aa8",
+        "name" : "Request",
+        "source" : "e4195b818d791aa8.json",
+        "type" : "application/json",
+        "size" : 74
+      }, {
+        "uid" : "2341098831701241",
+        "name" : "Response",
+        "source" : "2341098831701241.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1636300171444,
+        "stop" : 1636300171474,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bc3b02ed54ffccd1",
+        "name" : "Request",
+        "source" : "bc3b02ed54ffccd1.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "b54777709ae13707",
+        "name" : "Response",
+        "source" : "b54777709ae13707.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1636300171475,
+        "stop" : 1636300171491,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2de722bc01cec42",
+        "name" : "Request",
+        "source" : "2de722bc01cec42.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "b0d5f22021712b74",
+        "name" : "Response",
+        "source" : "b0d5f22021712b74.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/06403454-458f-41e6-bb61-4d4dc4f25bd1/click",
+      "time" : {
+        "start" : 1636300171494,
+        "stop" : 1636300171595,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1636300171596,
+        "stop" : 1636300171736,
+        "duration" : 140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aadc894c0e856cd",
+        "name" : "Screenshot",
+        "source" : "aadc894c0e856cd.png",
+        "type" : "image/png",
+        "size" : 98002
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 8,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Logo One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Logo One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify volvo logo link successfully opened"
+  }, {
+    "name" : "package",
+    "value" : "Volvo Logo One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c3301110a19aad5.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

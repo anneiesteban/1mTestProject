@@ -1,0 +1,924 @@
+{
+  "uid" : "d5897bccb4c5c31",
+  "name" : "should play alex video",
+  "fullName" : "Summer Video One Million Page.should play alex video",
+  "historyId" : "cdc7197e2ebb80dd155ba6221ea2e0fa",
+  "time" : {
+    "start" : 1636293251825,
+    "stop" : 1636293262335,
+    "duration" : 10510
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)",
+  "statusTrace" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)",
+    "statusTrace" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1636293251825,
+        "stop" : 1636293262335,
+        "duration" : 10510
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1636293251835,
+          "stop" : 1636293252513,
+          "duration" : 678
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636293251839,
+            "stop" : 1636293252256,
+            "duration" : 417
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1636293251843,
+              "stop" : 1636293251849,
+              "duration" : 6
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "94aa0e6306ae2f31",
+              "name" : "Request",
+              "source" : "94aa0e6306ae2f31.json",
+              "type" : "application/json",
+              "size" : 166
+            } ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 1,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "POST /session/:sessionId/execute/sync",
+            "time" : {
+              "start" : 1636293251850,
+              "stop" : 1636293252209,
+              "duration" : 359
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "6420dcaf65f52ee8",
+              "name" : "Request",
+              "source" : "6420dcaf65f52ee8.json",
+              "type" : "application/json",
+              "size" : 8337
+            } ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 1,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "284aecae71d2dc91",
+            "name" : "Request",
+            "source" : "284aecae71d2dc91.json",
+            "type" : "application/json",
+            "size" : 59
+          }, {
+            "uid" : "7ea21f12bb44615b",
+            "name" : "Response",
+            "source" : "7ea21f12bb44615b.json",
+            "type" : "application/json",
+            "size" : 83
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 4,
+          "stepsCount" : 2,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/execute/sync",
+          "time" : {
+            "start" : 1636293252258,
+            "stop" : 1636293252306,
+            "duration" : 48
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "851edf9b9baaf1d6",
+            "name" : "Request",
+            "source" : "851edf9b9baaf1d6.json",
+            "type" : "application/json",
+            "size" : 8337
+          }, {
+            "uid" : "359f2ba897af43d1",
+            "name" : "Response",
+            "source" : "359f2ba897af43d1.json",
+            "type" : "application/json",
+            "size" : 1107
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636293252308,
+            "stop" : 1636293252509,
+            "duration" : 201
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1636293252497,
+              "stop" : 1636293252501,
+              "duration" : 4
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "8db252a6723514af",
+              "name" : "Request",
+              "source" : "8db252a6723514af.json",
+              "type" : "application/json",
+              "size" : 59
+            } ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 1,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "6387e7b06e52f45e",
+            "name" : "Request",
+            "source" : "6387e7b06e52f45e.json",
+            "type" : "application/json",
+            "size" : 166
+          }, {
+            "uid" : "5753c48443db9937",
+            "name" : "Response",
+            "source" : "5753c48443db9937.json",
+            "type" : "application/json",
+            "size" : 1107
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 3,
+          "stepsCount" : 1,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "3d6e98edc2473586",
+          "name" : "Request",
+          "source" : "3d6e98edc2473586.json",
+          "type" : "application/json",
+          "size" : 74
+        }, {
+          "uid" : "5903a423df9f75d8",
+          "name" : "Response",
+          "source" : "5903a423df9f75d8.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 11,
+        "stepsCount" : 6,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636293252514,
+          "stop" : 1636293252529,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8215b5b162dd5513",
+          "name" : "Request",
+          "source" : "8215b5b162dd5513.json",
+          "type" : "application/json",
+          "size" : 8337
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636293252539,
+          "stop" : 1636293252553,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1f7c30d8e0b826b1",
+          "name" : "Request",
+          "source" : "1f7c30d8e0b826b1.json",
+          "type" : "application/json",
+          "size" : 8337
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636293252569,
+          "stop" : 1636293252583,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6cae8267f96d9e4d",
+          "name" : "Request",
+          "source" : "6cae8267f96d9e4d.json",
+          "type" : "application/json",
+          "size" : 8337
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636293252585,
+          "stop" : 1636293252604,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cec4eff87a8c9da7",
+          "name" : "Request",
+          "source" : "cec4eff87a8c9da7.json",
+          "type" : "application/json",
+          "size" : 8337
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636293252772,
+          "stop" : 1636293252786,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a6310e2394b5f8cf",
+          "name" : "Request",
+          "source" : "a6310e2394b5f8cf.json",
+          "type" : "application/json",
+          "size" : 8337
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636293252819,
+          "stop" : 1636293252832,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f7679b053cb1a03b",
+          "name" : "Request",
+          "source" : "f7679b053cb1a03b.json",
+          "type" : "application/json",
+          "size" : 166
+        }, {
+          "uid" : "8e1dec7754c2cc79",
+          "name" : "Response",
+          "source" : "8e1dec7754c2cc79.json",
+          "type" : "application/json",
+          "size" : 1107
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636293253272,
+          "stop" : 1636293253441,
+          "duration" : 169
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636293253318,
+            "stop" : 1636293253432,
+            "duration" : 114
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "bf46129a689df86e",
+            "name" : "Request",
+            "source" : "bf46129a689df86e.json",
+            "type" : "application/json",
+            "size" : 166
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "980765961a82637d",
+          "name" : "Request",
+          "source" : "980765961a82637d.json",
+          "type" : "application/json",
+          "size" : 8337
+        }, {
+          "uid" : "24d9a8aa14f4bab1",
+          "name" : "Response",
+          "source" : "24d9a8aa14f4bab1.json",
+          "type" : "application/json",
+          "size" : 1107
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 3,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636293253759,
+          "stop" : 1636293253774,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a71f2b5702b95c74",
+          "name" : "Request",
+          "source" : "a71f2b5702b95c74.json",
+          "type" : "application/json",
+          "size" : 8337
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636293253822,
+          "stop" : 1636293253846,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "500ad1795e88f08c",
+          "name" : "Request",
+          "source" : "500ad1795e88f08c.json",
+          "type" : "application/json",
+          "size" : 166
+        }, {
+          "uid" : "b937955c4077840d",
+          "name" : "Response",
+          "source" : "b937955c4077840d.json",
+          "type" : "application/json",
+          "size" : 1107
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636293254260,
+          "stop" : 1636293254291,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "926cae953ea636af",
+          "name" : "Request",
+          "source" : "926cae953ea636af.json",
+          "type" : "application/json",
+          "size" : 8337
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636293254291,
+          "stop" : 1636293262335,
+          "duration" : 8044
+        },
+        "status" : "broken",
+        "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636293254323,
+            "stop" : 1636293262335,
+            "duration" : 8012
+          },
+          "status" : "broken",
+          "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1636293254810,
+              "stop" : 1636293262335,
+              "duration" : 7525
+            },
+            "status" : "broken",
+            "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+            "steps" : [ {
+              "name" : "POST /session/:sessionId/element",
+              "time" : {
+                "start" : 1636293255310,
+                "stop" : 1636293262335,
+                "duration" : 7025
+              },
+              "status" : "broken",
+              "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+              "steps" : [ {
+                "name" : "POST /session/:sessionId/element",
+                "time" : {
+                  "start" : 1636293255811,
+                  "stop" : 1636293262335,
+                  "duration" : 6524
+                },
+                "status" : "broken",
+                "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+                "steps" : [ {
+                  "name" : "POST /session/:sessionId/element",
+                  "time" : {
+                    "start" : 1636293256323,
+                    "stop" : 1636293262335,
+                    "duration" : 6012
+                  },
+                  "status" : "broken",
+                  "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+                  "steps" : [ {
+                    "name" : "POST /session/:sessionId/element",
+                    "time" : {
+                      "start" : 1636293256811,
+                      "stop" : 1636293262335,
+                      "duration" : 5524
+                    },
+                    "status" : "broken",
+                    "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+                    "steps" : [ {
+                      "name" : "POST /session/:sessionId/element",
+                      "time" : {
+                        "start" : 1636293257312,
+                        "stop" : 1636293262335,
+                        "duration" : 5023
+                      },
+                      "status" : "broken",
+                      "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+                      "steps" : [ {
+                        "name" : "POST /session/:sessionId/element",
+                        "time" : {
+                          "start" : 1636293257814,
+                          "stop" : 1636293262335,
+                          "duration" : 4521
+                        },
+                        "status" : "broken",
+                        "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+                        "steps" : [ {
+                          "name" : "POST /session/:sessionId/element",
+                          "time" : {
+                            "start" : 1636293258313,
+                            "stop" : 1636293262335,
+                            "duration" : 4022
+                          },
+                          "status" : "broken",
+                          "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+                          "steps" : [ {
+                            "name" : "POST /session/:sessionId/element",
+                            "time" : {
+                              "start" : 1636293258813,
+                              "stop" : 1636293262335,
+                              "duration" : 3522
+                            },
+                            "status" : "broken",
+                            "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+                            "steps" : [ {
+                              "name" : "POST /session/:sessionId/element",
+                              "time" : {
+                                "start" : 1636293259313,
+                                "stop" : 1636293262335,
+                                "duration" : 3022
+                              },
+                              "status" : "broken",
+                              "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+                              "steps" : [ {
+                                "name" : "POST /session/:sessionId/element",
+                                "time" : {
+                                  "start" : 1636293259816,
+                                  "stop" : 1636293262335,
+                                  "duration" : 2519
+                                },
+                                "status" : "broken",
+                                "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+                                "steps" : [ {
+                                  "name" : "POST /session/:sessionId/element",
+                                  "time" : {
+                                    "start" : 1636293260314,
+                                    "stop" : 1636293262335,
+                                    "duration" : 2021
+                                  },
+                                  "status" : "broken",
+                                  "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+                                  "steps" : [ {
+                                    "name" : "POST /session/:sessionId/element",
+                                    "time" : {
+                                      "start" : 1636293260814,
+                                      "stop" : 1636293262335,
+                                      "duration" : 1521
+                                    },
+                                    "status" : "broken",
+                                    "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+                                    "steps" : [ {
+                                      "name" : "POST /session/:sessionId/element",
+                                      "time" : {
+                                        "start" : 1636293261314,
+                                        "stop" : 1636293262335,
+                                        "duration" : 1021
+                                      },
+                                      "status" : "broken",
+                                      "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+                                      "steps" : [ {
+                                        "name" : "POST /session/:sessionId/element",
+                                        "time" : {
+                                          "start" : 1636293261817,
+                                          "stop" : 1636293262335,
+                                          "duration" : 518
+                                        },
+                                        "status" : "broken",
+                                        "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+                                        "steps" : [ {
+                                          "name" : "POST /session/:sessionId/element",
+                                          "time" : {
+                                            "start" : 1636293262318,
+                                            "stop" : 1636293262335,
+                                            "duration" : 17
+                                          },
+                                          "status" : "broken",
+                                          "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+                                          "steps" : [ {
+                                            "name" : "GET /session/:sessionId/screenshot",
+                                            "time" : {
+                                              "start" : 1636293262322,
+                                              "stop" : 1636293262335,
+                                              "duration" : 13
+                                            },
+                                            "status" : "broken",
+                                            "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=95.0.4638.69)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\summer.video.spec.js:48:9)",
+                                            "steps" : [ ],
+                                            "attachments" : [ ],
+                                            "parameters" : [ ],
+                                            "shouldDisplayMessage" : true,
+                                            "attachmentsCount" : 0,
+                                            "stepsCount" : 0,
+                                            "hasContent" : true
+                                          } ],
+                                          "attachments" : [ {
+                                            "uid" : "db4891a6f936377a",
+                                            "name" : "Request",
+                                            "source" : "db4891a6f936377a.json",
+                                            "type" : "application/json",
+                                            "size" : 166
+                                          } ],
+                                          "parameters" : [ ],
+                                          "shouldDisplayMessage" : false,
+                                          "attachmentsCount" : 1,
+                                          "stepsCount" : 1,
+                                          "hasContent" : true
+                                        } ],
+                                        "attachments" : [ {
+                                          "uid" : "bd37c812fa1b7a7c",
+                                          "name" : "Request",
+                                          "source" : "bd37c812fa1b7a7c.json",
+                                          "type" : "application/json",
+                                          "size" : 166
+                                        } ],
+                                        "parameters" : [ ],
+                                        "shouldDisplayMessage" : false,
+                                        "attachmentsCount" : 2,
+                                        "stepsCount" : 2,
+                                        "hasContent" : true
+                                      } ],
+                                      "attachments" : [ {
+                                        "uid" : "1070215e1507d4e3",
+                                        "name" : "Request",
+                                        "source" : "1070215e1507d4e3.json",
+                                        "type" : "application/json",
+                                        "size" : 166
+                                      } ],
+                                      "parameters" : [ ],
+                                      "shouldDisplayMessage" : false,
+                                      "attachmentsCount" : 3,
+                                      "stepsCount" : 3,
+                                      "hasContent" : true
+                                    } ],
+                                    "attachments" : [ {
+                                      "uid" : "9038bf003fe35b81",
+                                      "name" : "Request",
+                                      "source" : "9038bf003fe35b81.json",
+                                      "type" : "application/json",
+                                      "size" : 166
+                                    } ],
+                                    "parameters" : [ ],
+                                    "shouldDisplayMessage" : false,
+                                    "attachmentsCount" : 4,
+                                    "stepsCount" : 4,
+                                    "hasContent" : true
+                                  } ],
+                                  "attachments" : [ {
+                                    "uid" : "e6ad0e6117f3bc94",
+                                    "name" : "Request",
+                                    "source" : "e6ad0e6117f3bc94.json",
+                                    "type" : "application/json",
+                                    "size" : 166
+                                  } ],
+                                  "parameters" : [ ],
+                                  "shouldDisplayMessage" : false,
+                                  "attachmentsCount" : 5,
+                                  "stepsCount" : 5,
+                                  "hasContent" : true
+                                } ],
+                                "attachments" : [ {
+                                  "uid" : "832dcb5f25005fd7",
+                                  "name" : "Request",
+                                  "source" : "832dcb5f25005fd7.json",
+                                  "type" : "application/json",
+                                  "size" : 166
+                                } ],
+                                "parameters" : [ ],
+                                "shouldDisplayMessage" : false,
+                                "attachmentsCount" : 6,
+                                "stepsCount" : 6,
+                                "hasContent" : true
+                              } ],
+                              "attachments" : [ {
+                                "uid" : "81d3e44988a119d4",
+                                "name" : "Request",
+                                "source" : "81d3e44988a119d4.json",
+                                "type" : "application/json",
+                                "size" : 166
+                              } ],
+                              "parameters" : [ ],
+                              "shouldDisplayMessage" : false,
+                              "attachmentsCount" : 7,
+                              "stepsCount" : 7,
+                              "hasContent" : true
+                            } ],
+                            "attachments" : [ {
+                              "uid" : "de12b3d25ad2e96c",
+                              "name" : "Request",
+                              "source" : "de12b3d25ad2e96c.json",
+                              "type" : "application/json",
+                              "size" : 166
+                            } ],
+                            "parameters" : [ ],
+                            "shouldDisplayMessage" : false,
+                            "attachmentsCount" : 8,
+                            "stepsCount" : 8,
+                            "hasContent" : true
+                          } ],
+                          "attachments" : [ {
+                            "uid" : "a595a453ee3b0fd1",
+                            "name" : "Request",
+                            "source" : "a595a453ee3b0fd1.json",
+                            "type" : "application/json",
+                            "size" : 166
+                          } ],
+                          "parameters" : [ ],
+                          "shouldDisplayMessage" : false,
+                          "attachmentsCount" : 9,
+                          "stepsCount" : 9,
+                          "hasContent" : true
+                        } ],
+                        "attachments" : [ {
+                          "uid" : "f1dc8b4a35a916c5",
+                          "name" : "Request",
+                          "source" : "f1dc8b4a35a916c5.json",
+                          "type" : "application/json",
+                          "size" : 166
+                        } ],
+                        "parameters" : [ ],
+                        "shouldDisplayMessage" : false,
+                        "attachmentsCount" : 10,
+                        "stepsCount" : 10,
+                        "hasContent" : true
+                      } ],
+                      "attachments" : [ {
+                        "uid" : "fe086207e8b1f22c",
+                        "name" : "Request",
+                        "source" : "fe086207e8b1f22c.json",
+                        "type" : "application/json",
+                        "size" : 166
+                      } ],
+                      "parameters" : [ ],
+                      "shouldDisplayMessage" : false,
+                      "attachmentsCount" : 11,
+                      "stepsCount" : 11,
+                      "hasContent" : true
+                    } ],
+                    "attachments" : [ {
+                      "uid" : "5ca58b06b12b4ce8",
+                      "name" : "Request",
+                      "source" : "5ca58b06b12b4ce8.json",
+                      "type" : "application/json",
+                      "size" : 166
+                    } ],
+                    "parameters" : [ ],
+                    "shouldDisplayMessage" : false,
+                    "attachmentsCount" : 12,
+                    "stepsCount" : 12,
+                    "hasContent" : true
+                  } ],
+                  "attachments" : [ {
+                    "uid" : "7e10a695033d8c71",
+                    "name" : "Request",
+                    "source" : "7e10a695033d8c71.json",
+                    "type" : "application/json",
+                    "size" : 166
+                  } ],
+                  "parameters" : [ ],
+                  "shouldDisplayMessage" : false,
+                  "attachmentsCount" : 13,
+                  "stepsCount" : 13,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ {
+                  "uid" : "67f54e845e0b46fc",
+                  "name" : "Request",
+                  "source" : "67f54e845e0b46fc.json",
+                  "type" : "application/json",
+                  "size" : 166
+                } ],
+                "parameters" : [ ],
+                "shouldDisplayMessage" : false,
+                "attachmentsCount" : 14,
+                "stepsCount" : 14,
+                "hasContent" : true
+              } ],
+              "attachments" : [ {
+                "uid" : "ba6c3aa5910fd1da",
+                "name" : "Request",
+                "source" : "ba6c3aa5910fd1da.json",
+                "type" : "application/json",
+                "size" : 166
+              } ],
+              "parameters" : [ ],
+              "shouldDisplayMessage" : false,
+              "attachmentsCount" : 15,
+              "stepsCount" : 15,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "9e7a83f51cd08f31",
+              "name" : "Request",
+              "source" : "9e7a83f51cd08f31.json",
+              "type" : "application/json",
+              "size" : 166
+            } ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 16,
+            "stepsCount" : 16,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "d890343c3b28a993",
+            "name" : "Request",
+            "source" : "d890343c3b28a993.json",
+            "type" : "application/json",
+            "size" : 166
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 17,
+          "stepsCount" : 17,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "29ce3ef80a545aaa",
+          "name" : "Request",
+          "source" : "29ce3ef80a545aaa.json",
+          "type" : "application/json",
+          "size" : 59
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 18,
+        "stepsCount" : 18,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "357bcb75d5927757",
+        "name" : "Request",
+        "source" : "357bcb75d5927757.json",
+        "type" : "application/json",
+        "size" : 8337
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 44,
+      "stepsCount" : 37,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 44,
+    "stepsCount" : 38,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Summer Video One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Summer Video One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should play alex video"
+  }, {
+    "name" : "package",
+    "value" : "Summer Video One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5897bccb4c5c31.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

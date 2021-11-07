@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636280825844' stop='1636280825863'>
+    <name>Intro Video One Million Page</name>
+    <title>Intro Video One Million Page</title>
+    <test-cases>
+        <test-case start='1636280825844' status='passed' stop='1636280825861'>
+            <name>should play intro video</name>
+            <title>should play intro video</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636280825847' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f0d10e02-4c5a-44cd-a941-a128fe92c7d3-attachment.json' type='application/json' size='215'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636280825853' status='undefined'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='a5a5774c-0e53-46fe-b934-4b21153f6d7a-attachment.json' type='application/json' size='74'/>
+                            </attachments>
+                            <steps>
+                                <step start='1636280825857' status='undefined'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='d4984b82-8953-4913-b6d1-a7d5fb92acbd-attachment.json' type='application/json' size='89'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

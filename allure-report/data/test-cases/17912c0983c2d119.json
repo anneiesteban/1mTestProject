@@ -1,0 +1,150 @@
+{
+  "uid" : "17912c0983c2d119",
+  "name" : "should verify our cars sub menu successfully opened",
+  "fullName" : "Our Cars One Million Page.should verify our cars sub menu successfully opened",
+  "historyId" : "43e072dd9fb7eb42505c5b50bde8f7e1",
+  "time" : {
+    "start" : 1636303886680,
+    "stop" : 1636303886704,
+    "duration" : 24
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1636303886682,
+        "stop" : 0,
+        "duration" : -1636303886682
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636303886689,
+          "stop" : 0,
+          "duration" : -1636303886689
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636303886693,
+            "stop" : 0,
+            "duration" : -1636303886693
+          },
+          "status" : "unknown",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1636303886697,
+              "stop" : 0,
+              "duration" : -1636303886697
+            },
+            "status" : "unknown",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "6058332cd27945ff",
+              "name" : "Request",
+              "source" : "6058332cd27945ff.json",
+              "type" : "application/json",
+              "size" : 95
+            } ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 1,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "8d063a9cdfc85725",
+            "name" : "Request",
+            "source" : "8d063a9cdfc85725.json",
+            "type" : "application/json",
+            "size" : 67
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 1,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "fc51f05436633d40",
+          "name" : "Request",
+          "source" : "fc51f05436633d40.json",
+          "type" : "application/json",
+          "size" : 59
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 3,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "5d44dee282418d63",
+        "name" : "Request",
+        "source" : "5d44dee282418d63.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify our cars sub menu successfully opened"
+  }, {
+    "name" : "package",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17912c0983c2d119.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

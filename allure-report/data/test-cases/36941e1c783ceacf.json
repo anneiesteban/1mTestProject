@@ -1,0 +1,129 @@
+{
+  "uid" : "36941e1c783ceacf",
+  "name" : "should verify our cars sub menu successfully opened",
+  "fullName" : "Our Cars One Million Page.should verify our cars sub menu successfully opened",
+  "historyId" : "43e072dd9fb7eb42505c5b50bde8f7e1",
+  "time" : {
+    "start" : 1636305768441,
+    "stop" : 1636305768458,
+    "duration" : 17
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1636305768443,
+        "stop" : 0,
+        "duration" : -1636305768443
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636305768449,
+          "stop" : 0,
+          "duration" : -1636305768449
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636305768454,
+            "stop" : 0,
+            "duration" : -1636305768454
+          },
+          "status" : "unknown",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "b3047025f497cb09",
+            "name" : "Request",
+            "source" : "b3047025f497cb09.json",
+            "type" : "application/json",
+            "size" : 59
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "213a855dc39f89ec",
+          "name" : "Request",
+          "source" : "213a855dc39f89ec.json",
+          "type" : "application/json",
+          "size" : 67
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "37ee02c5663f3a56",
+        "name" : "Request",
+        "source" : "37ee02c5663f3a56.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify our cars sub menu successfully opened"
+  }, {
+    "name" : "package",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36941e1c783ceacf.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

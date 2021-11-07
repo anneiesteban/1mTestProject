@@ -1,0 +1,215 @@
+{
+  "uid" : "3112d59203796b94",
+  "name" : "should verify our cars sub menu successfully opened",
+  "fullName" : "Our Cars One Million Page.should verify our cars sub menu successfully opened",
+  "historyId" : "43e072dd9fb7eb42505c5b50bde8f7e1",
+  "time" : {
+    "start" : 1636304412449,
+    "stop" : 1636304413780,
+    "duration" : 1331
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "s is not defined",
+  "statusTrace" : "ReferenceError: s is not defined\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\our.cars.spec.js:12:60)\n                    at Context.executeAsync (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "s is not defined",
+    "statusTrace" : "ReferenceError: s is not defined\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\our.cars.spec.js:12:60)\n                    at Context.executeAsync (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1636304412451,
+        "stop" : 1636304413780,
+        "duration" : 1329
+      },
+      "status" : "broken",
+      "statusMessage" : "ReferenceError: s is not defined\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\our.cars.spec.js:12:60)\n                    at Context.executeAsync (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636304412456,
+          "stop" : 1636304413779,
+          "duration" : 1323
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636304412459,
+            "stop" : 1636304413643,
+            "duration" : 1184
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "GET /session/:sessionId/screenshot",
+            "time" : {
+              "start" : 1636304412464,
+              "stop" : 1636304413629,
+              "duration" : 1165
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0,
+            "stepsCount" : 0,
+            "hasContent" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "c6207ba77dd44a7d",
+            "name" : "Request",
+            "source" : "c6207ba77dd44a7d.json",
+            "type" : "application/json",
+            "size" : 67
+          }, {
+            "uid" : "ea52957cb212edd4",
+            "name" : "Response",
+            "source" : "ea52957cb212edd4.json",
+            "type" : "application/json",
+            "size" : 83
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 1,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/execute/sync",
+          "time" : {
+            "start" : 1636304413651,
+            "stop" : 1636304413671,
+            "duration" : 20
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "c16611f72c6f776e",
+            "name" : "Request",
+            "source" : "c16611f72c6f776e.json",
+            "type" : "application/json",
+            "size" : 8337
+          }, {
+            "uid" : "ebb3f7e209517d75",
+            "name" : "Response",
+            "source" : "ebb3f7e209517d75.json",
+            "type" : "application/json",
+            "size" : 83
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "16b7d08cccab5e9f",
+          "name" : "Request",
+          "source" : "16b7d08cccab5e9f.json",
+          "type" : "application/json",
+          "size" : 59
+        }, {
+          "uid" : "3dd98526b9e8a108",
+          "name" : "Screenshot",
+          "source" : "3dd98526b9e8a108.png",
+          "type" : "image/png",
+          "size" : 96765
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 6,
+        "stepsCount" : 3,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "9d31ce94076a3fdd",
+        "name" : "Request",
+        "source" : "9d31ce94076a3fdd.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 7,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1636304413785,
+        "stop" : 0,
+        "duration" : -1636304413785
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "242132bed359c822",
+        "name" : "Request",
+        "source" : "242132bed359c822.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1881bbcca4fcf6b3",
+      "name" : "Response",
+      "source" : "1881bbcca4fcf6b3.json",
+      "type" : "application/json",
+      "size" : 4
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 9,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify our cars sub menu successfully opened"
+  }, {
+    "name" : "package",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3112d59203796b94.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

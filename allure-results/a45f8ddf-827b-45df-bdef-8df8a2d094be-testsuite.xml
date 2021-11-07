@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636304271096' stop='1636304272687'>
+    <name>Our Cars One Million Page</name>
+    <title>Our Cars One Million Page</title>
+    <test-cases>
+        <test-case start='1636304271097' status='broken' stop='1636304272667'>
+            <name>should verify our cars sub menu successfully opened</name>
+            <title>should verify our cars sub menu successfully opened</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636304271099' status='broken' stop='1636304272667'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='9bb52e32-c3a3-43a3-80ee-d4a0e57f9afb-attachment.json' type='application/json' size='74'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636304271106' status='passed' stop='1636304272666'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='c1881a67-c8dd-405a-94b0-8371f9fc3c2a-attachment.json' type='application/json' size='59'/>
+                                <attachment title='Screenshot' source='fc13f60d-70a2-4b7d-a3e4-f7cad93dd3ad-attachment.png' type='image/png' size='82725'/>
+                            </attachments>
+                            <steps>
+                                <step start='1636304271109' status='passed' stop='1636304272523'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='8016bcd3-7f71-4168-adbf-a0fd2153667f-attachment.json' type='application/json' size='67'/>
+                                        <attachment title='Response' source='20efae25-ceb6-4c2e-bcca-727ad8807647-attachment.json' type='application/json' size='83'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1636304271114' status='passed' stop='1636304272507'>
+                                            <name>GET /session/:sessionId/screenshot</name>
+                                            <title>GET /session/:sessionId/screenshot</title>
+                                            <attachments/>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                                <step start='1636304272529' status='passed' stop='1636304272547'>
+                                    <name>POST /session/:sessionId/execute/sync</name>
+                                    <title>POST /session/:sessionId/execute/sync</title>
+                                    <attachments>
+                                        <attachment title='Request' source='34172223-a59d-423e-8778-1ee6aface683-attachment.json' type='application/json' size='8337'/>
+                                        <attachment title='Response' source='e7de6a85-8fdb-44c4-b13a-3befbbb369a1-attachment.json' type='application/json' size='83'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1636304272670' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fad2a0e5-c04b-4234-b6ae-fa2568a0cc2c-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='3f2b0956-c6bd-4f9b-b580-b1f1ebc9ea70-attachment.json' type='application/json' size='4'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'click')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'click')
+                    at OneMillionPage.clickElement (C:\Users\Marianne\volvo-1m\test\pageobjects\one.million.page.js:35:23)
+                    at Context.&lt;anonymous> (C:\Users\Marianne\volvo-1m\test\specs\our.cars.spec.js:12:23)
+                    at Context.executeAsync (C:\Users\Marianne\volvo-1m\node_modules\@wdio\utils\build\shim.js:325:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\Marianne\volvo-1m\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

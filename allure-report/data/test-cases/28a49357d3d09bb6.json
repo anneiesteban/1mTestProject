@@ -1,0 +1,133 @@
+{
+  "uid" : "28a49357d3d09bb6",
+  "name" : "should verify correct tab name",
+  "fullName" : "One Million Page.should verify correct tab name",
+  "historyId" : "df7eedce770b355d180f02320517ce37",
+  "time" : {
+    "start" : 1636278175516,
+    "stop" : 1636278176833,
+    "duration" : 1317
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "browser.call is not a function",
+  "statusTrace" : "TypeError: browser.call is not a function\n                    at Object.toHaveTitleFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveTitle.js:9:20)\n                    at Object.toHaveTitleContainingFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveTitleContaining.js:7:40)\n                    at Object.runJestExpect (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\util\\expectAdapter.js:10:15)\n                    at Object.toHaveTitleContaining (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveTitleContaining.js:13:38)\n                    at __EXTERNAL_MATCHER_TRAP__ (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect\\build\\index.js:386:30)\n                    at Object.throwingMatcher [as toHaveTitleContaining] (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect\\build\\index.js:387:15)\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\one.million.spec.js:12:31)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "browser.call is not a function",
+    "statusTrace" : "TypeError: browser.call is not a function\n                    at Object.toHaveTitleFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveTitle.js:9:20)\n                    at Object.toHaveTitleContainingFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveTitleContaining.js:7:40)\n                    at Object.runJestExpect (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\util\\expectAdapter.js:10:15)\n                    at Object.toHaveTitleContaining (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveTitleContaining.js:13:38)\n                    at __EXTERNAL_MATCHER_TRAP__ (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect\\build\\index.js:386:30)\n                    at Object.throwingMatcher [as toHaveTitleContaining] (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect\\build\\index.js:387:15)\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\one.million.spec.js:12:31)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1636278175517,
+        "stop" : 1636278176690,
+        "duration" : 1173
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be9e9a471f7f0337",
+        "name" : "Request",
+        "source" : "be9e9a471f7f0337.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1636278176692,
+        "stop" : 1636278176832,
+        "duration" : 140
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1636278176695,
+          "stop" : 1636278176711,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "59eceaa037ec72ed",
+          "name" : "Response",
+          "source" : "59eceaa037ec72ed.json",
+          "type" : "application/json",
+          "size" : 45
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "2a46587f75443951",
+        "name" : "Screenshot",
+        "source" : "2a46587f75443951.png",
+        "type" : "image/png",
+        "size" : 82408
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify correct tab name"
+  }, {
+    "name" : "package",
+    "value" : "One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28a49357d3d09bb6.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

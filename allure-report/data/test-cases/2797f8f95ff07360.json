@@ -1,0 +1,129 @@
+{
+  "uid" : "2797f8f95ff07360",
+  "name" : "should play intro video",
+  "fullName" : "Intro Video One Million Page.should play intro video",
+  "historyId" : "88f3500a9c1eb1bf81371b25e4f7ec59",
+  "time" : {
+    "start" : 1636282734175,
+    "stop" : 1636282734191,
+    "duration" : 16
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1636282734177,
+        "stop" : 0,
+        "duration" : -1636282734177
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636282734183,
+          "stop" : 0,
+          "duration" : -1636282734183
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636282734186,
+            "stop" : 0,
+            "duration" : -1636282734186
+          },
+          "status" : "unknown",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "5607a4fd57633846",
+            "name" : "Request",
+            "source" : "5607a4fd57633846.json",
+            "type" : "application/json",
+            "size" : 89
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "cc86fc979f7dac56",
+          "name" : "Request",
+          "source" : "cc86fc979f7dac56.json",
+          "type" : "application/json",
+          "size" : 59
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "b77b3a3f34f7eb59",
+        "name" : "Request",
+        "source" : "b77b3a3f34f7eb59.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Intro Video One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Intro Video One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should play intro video"
+  }, {
+    "name" : "package",
+    "value" : "Intro Video One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2797f8f95ff07360.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

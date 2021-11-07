@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "body > div.optanon-alert-box-wrapper > div.optanon-alert-box-bg > div.optanon-alert-box-button-container > div.optanon-alert-box-button.optanon-button-allow > div > button"
+}

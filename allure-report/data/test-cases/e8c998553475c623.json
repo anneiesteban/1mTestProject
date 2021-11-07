@@ -1,0 +1,156 @@
+{
+  "uid" : "e8c998553475c623",
+  "name" : "should verify our cars sub menu successfully opened",
+  "fullName" : "Our Cars One Million Page.should verify our cars sub menu successfully opened",
+  "historyId" : "43e072dd9fb7eb42505c5b50bde8f7e1",
+  "time" : {
+    "start" : 1636305503497,
+    "stop" : 1636305504858,
+    "duration" : 1361
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read properties of undefined (reading 'waitForDisplayed')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'waitForDisplayed')\n                    at OneMillionPage.clickElement (C:\\Users\\Marianne\\volvo-1m\\test\\pageobjects\\one.million.page.js:40:22)\n                    at OneMillionPage.ourCarsTest (C:\\Users\\Marianne\\volvo-1m\\test\\pageobjects\\one.million.page.js:35:14)\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\our.cars.spec.js:9:24)\n                    at Context.executeAsync (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read properties of undefined (reading 'waitForDisplayed')",
+    "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'waitForDisplayed')\n                    at OneMillionPage.clickElement (C:\\Users\\Marianne\\volvo-1m\\test\\pageobjects\\one.million.page.js:40:22)\n                    at OneMillionPage.ourCarsTest (C:\\Users\\Marianne\\volvo-1m\\test\\pageobjects\\one.million.page.js:35:14)\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\our.cars.spec.js:9:24)\n                    at Context.executeAsync (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1636305503499,
+        "stop" : 1636305504858,
+        "duration" : 1359
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: Cannot read properties of undefined (reading 'waitForDisplayed')\n                    at OneMillionPage.clickElement (C:\\Users\\Marianne\\volvo-1m\\test\\pageobjects\\one.million.page.js:40:22)\n                    at OneMillionPage.ourCarsTest (C:\\Users\\Marianne\\volvo-1m\\test\\pageobjects\\one.million.page.js:35:14)\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\our.cars.spec.js:9:24)\n                    at Context.executeAsync (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636305503505,
+          "stop" : 1636305504858,
+          "duration" : 1353
+        },
+        "status" : "broken",
+        "statusMessage" : "TypeError: Cannot read properties of undefined (reading 'waitForDisplayed')\n                    at OneMillionPage.clickElement (C:\\Users\\Marianne\\volvo-1m\\test\\pageobjects\\one.million.page.js:40:22)\n                    at OneMillionPage.ourCarsTest (C:\\Users\\Marianne\\volvo-1m\\test\\pageobjects\\one.million.page.js:35:14)\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\our.cars.spec.js:9:24)\n                    at Context.executeAsync (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/screenshot",
+          "time" : {
+            "start" : 1636305503508,
+            "stop" : 1636305504857,
+            "duration" : 1349
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1636305503512,
+              "stop" : 1636305504729,
+              "duration" : 1217
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "201620877136a3be",
+              "name" : "Request",
+              "source" : "201620877136a3be.json",
+              "type" : "application/json",
+              "size" : 59
+            } ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 1,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "f8fdad16be82e7d7",
+            "name" : "Screenshot",
+            "source" : "f8fdad16be82e7d7.png",
+            "type" : "image/png",
+            "size" : 78367
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 1,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "add1998b382d478e",
+          "name" : "Request",
+          "source" : "add1998b382d478e.json",
+          "type" : "application/json",
+          "size" : 67
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 3,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "511bf287265955cf",
+        "name" : "Request",
+        "source" : "511bf287265955cf.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 4,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify our cars sub menu successfully opened"
+  }, {
+    "name" : "package",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8c998553475c623.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

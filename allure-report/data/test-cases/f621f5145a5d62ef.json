@@ -1,0 +1,119 @@
+{
+  "uid" : "f621f5145a5d62ef",
+  "name" : "\"before all\" hook for One Million Page",
+  "fullName" : "One Million Page.\"before all\" hook for One Million Page",
+  "historyId" : "5da51833e60e124faf428081287d3a8b",
+  "time" : {
+    "start" : 1636278948502,
+    "stop" : 1636278948538,
+    "duration" : 36
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "acceptCookie is not defined",
+  "statusTrace" : "ReferenceError: acceptCookie is not defined\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\one.million.spec.js:9:27)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "acceptCookie is not defined",
+    "statusTrace" : "ReferenceError: acceptCookie is not defined\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\one.million.spec.js:9:27)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1636278948505,
+        "stop" : 1636278948538,
+        "duration" : 33
+      },
+      "status" : "broken",
+      "statusMessage" : "ReferenceError: acceptCookie is not defined\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\one.million.spec.js:9:27)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1636278948510,
+          "stop" : 1636278948529,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "29e5893e8c942f15",
+          "name" : "Request",
+          "source" : "29e5893e8c942f15.json",
+          "type" : "application/json",
+          "size" : 74
+        }, {
+          "uid" : "e7c31ab6cde1a3c6",
+          "name" : "Response",
+          "source" : "e7c31ab6cde1a3c6.json",
+          "type" : "application/json",
+          "size" : 1156
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "ce9805bc58d2e138",
+        "name" : "Request",
+        "source" : "ce9805bc58d2e138.json",
+        "type" : "application/json",
+        "size" : 215
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 3,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for One Million Page"
+  }, {
+    "name" : "package",
+    "value" : "One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f621f5145a5d62ef.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

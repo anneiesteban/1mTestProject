@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "acceptCookie is not defined",
+      "children" : [ {
+        "name" : "\"before all\" hook for One Million Page",
+        "uid" : "b1e7a12373cf0b85",
+        "parentUid" : "92178dc08a5a103da27c5a231adf46f0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636279000206,
+          "stop" : 1636279000245,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-95.0.4638.69" ]
+      } ],
+      "uid" : "92178dc08a5a103da27c5a231adf46f0"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

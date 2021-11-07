@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636260038610' stop='1636260049974'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1636260038610' status='broken' stop='1636260049970'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636260038612' status='passed' stop='1636260049918'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='17735f0f-7188-4f00-bc7d-6312902422c2-attachment.json' type='application/json' size='79'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636260049920' status='broken' stop='1636260049970'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f968422e-025e-4ef7-af4a-65dff9e6c4d9-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636260049939' status='broken' stop='1636260049970'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=95.0.4638.69)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00893AB3+2505395]
+                	Ordinal0 [0x0082AE41+2076225]
+                	Ordinal0 [0x00732498+1057944]
+                	Ordinal0 [0x0071BE96+966294]
+                	Ordinal0 [0x00777F19+1343257]
+                	Ordinal0 [0x007848C2+1394882]
+                	Ordinal0 [0x007758BB+1333435]
+                	Ordinal0 [0x007523E4+1188836]
+                	Ordinal0 [0x0075323F+1192511]
+                	GetHandleVerifier [0x00A1CB36+1554566]
+                	GetHandleVerifier [0x00AC4A0C+2242396]
+                	GetHandleVerifier [0x00920E0B+523099]
+                	GetHandleVerifier [0x0091FEB0+519168]
+                	Ordinal0 [0x008302FD+2097917]
+                	Ordinal0 [0x00834388+2114440]
+                	Ordinal0 [0x008344C2+2114754]
+                	Ordinal0 [0x0083E041+2154561]
+                	BaseThreadInitThunk [0x7579FA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77117A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77117A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

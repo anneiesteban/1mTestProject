@@ -1,0 +1,710 @@
+{
+  "uid" : "797956ceba0c0bed",
+  "name" : "should verify explore model recharge link successfully opened",
+  "fullName" : "Explore Model Recharge One Million Page.should verify explore model recharge link successfully opened",
+  "historyId" : "974121539334fe26d1a8a6f1d95db632",
+  "time" : {
+    "start" : 1636297099257,
+    "stop" : 1636297159273,
+    "duration" : 60016
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 60000ms exceeded. The execution in the test \"Explore Model Recharge One Million Page should verify explore model recharge link successfully opened\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\explore.model.recharge.spec.js)",
+  "statusTrace" : "Error: Timeout of 60000ms exceeded. The execution in the test \"Explore Model Recharge One Million Page should verify explore model recharge link successfully opened\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\explore.model.recharge.spec.js)\n                    at createTimeoutError (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\errors.js:498:15)\n                    at Test.Runnable._timeoutError (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\runnable.js:431:10)\n                    at Timeout.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\runnable.js:246:24)\n                    at listOnTimeout (node:internal/timers:557:17)\n                    at processTimers (node:internal/timers:500:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 60000ms exceeded. The execution in the test \"Explore Model Recharge One Million Page should verify explore model recharge link successfully opened\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\explore.model.recharge.spec.js)",
+    "statusTrace" : "Error: Timeout of 60000ms exceeded. The execution in the test \"Explore Model Recharge One Million Page should verify explore model recharge link successfully opened\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\explore.model.recharge.spec.js)\n                    at createTimeoutError (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\errors.js:498:15)\n                    at Test.Runnable._timeoutError (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\runnable.js:431:10)\n                    at Timeout.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\runnable.js:246:24)\n                    at listOnTimeout (node:internal/timers:557:17)\n                    at processTimers (node:internal/timers:500:7)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1636297099258,
+        "stop" : 1636297159273,
+        "duration" : 60015
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Timeout of 60000ms exceeded. The execution in the test \"Explore Model Recharge One Million Page should verify explore model recharge link successfully opened\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\explore.model.recharge.spec.js)\n                    at createTimeoutError (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\errors.js:498:15)\n                    at Test.Runnable._timeoutError (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\runnable.js:431:10)\n                    at Timeout.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\runnable.js:246:24)\n                    at listOnTimeout (node:internal/timers:557:17)\n                    at processTimers (node:internal/timers:500:7)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636297099264,
+          "stop" : 1636297100851,
+          "duration" : 1587
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636297099267,
+            "stop" : 1636297100828,
+            "duration" : 1561
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "668e7f7e2c083308",
+            "name" : "Request",
+            "source" : "668e7f7e2c083308.json",
+            "type" : "application/json",
+            "size" : 128
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "884c61cd2705bc84",
+          "name" : "Request",
+          "source" : "884c61cd2705bc84.json",
+          "type" : "application/json",
+          "size" : 59
+        }, {
+          "uid" : "f4c709f76eccc5f5",
+          "name" : "Response",
+          "source" : "f4c709f76eccc5f5.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 3,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636297100857,
+          "stop" : 1636297100875,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4d295ea77e887ea0",
+          "name" : "Request",
+          "source" : "4d295ea77e887ea0.json",
+          "type" : "application/json",
+          "size" : 8337
+        }, {
+          "uid" : "11bfc1f6361c9dd1",
+          "name" : "Response",
+          "source" : "11bfc1f6361c9dd1.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636297100877,
+          "stop" : 1636297100892,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "292761ffc628c99f",
+          "name" : "Request",
+          "source" : "292761ffc628c99f.json",
+          "type" : "application/json",
+          "size" : 8337
+        }, {
+          "uid" : "ed8a4fa85a026009",
+          "name" : "Response",
+          "source" : "ed8a4fa85a026009.json",
+          "type" : "application/json",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636297100892,
+          "stop" : 1636297100898,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1d14d650c7886d1f",
+          "name" : "Request",
+          "source" : "1d14d650c7886d1f.json",
+          "type" : "application/json",
+          "size" : 59
+        }, {
+          "uid" : "c49556ba60838672",
+          "name" : "Response",
+          "source" : "c49556ba60838672.json",
+          "type" : "application/json",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/70588a70-96c8-4aa9-b6b6-39cf68a35a8d/click",
+        "time" : {
+          "start" : 1636297100899,
+          "stop" : 1636297100906,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "266fc8710fc99fd8",
+          "name" : "Response",
+          "source" : "266fc8710fc99fd8.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/cd9735e6-3715-4172-9b9f-df65a17d3320/click",
+        "time" : {
+          "start" : 1636297100908,
+          "stop" : 1636297101214,
+          "duration" : 306
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636297101091,
+            "stop" : 1636297101202,
+            "duration" : 111
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "fce90b4b5f052ed6",
+            "name" : "Request",
+            "source" : "fce90b4b5f052ed6.json",
+            "type" : "application/json",
+            "size" : 128
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "39bfda64419f36c8",
+          "name" : "Response",
+          "source" : "39bfda64419f36c8.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/70588a70-96c8-4aa9-b6b6-39cf68a35a8d/click",
+        "time" : {
+          "start" : 1636297101217,
+          "stop" : 1636297159273,
+          "duration" : 58056
+        },
+        "status" : "broken",
+        "statusMessage" : "Error: Timeout of 60000ms exceeded. The execution in the test \"Explore Model Recharge One Million Page should verify explore model recharge link successfully opened\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\explore.model.recharge.spec.js)\n                    at createTimeoutError (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\errors.js:498:15)\n                    at Test.Runnable._timeoutError (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\runnable.js:431:10)\n                    at Timeout.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\runnable.js:246:24)\n                    at listOnTimeout (node:internal/timers:557:17)\n                    at processTimers (node:internal/timers:500:7)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636297101228,
+            "stop" : 1636297101246,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "72c616a4201da2e1",
+            "name" : "Request",
+            "source" : "72c616a4201da2e1.json",
+            "type" : "application/json",
+            "size" : 128
+          }, {
+            "uid" : "277659fd82a2eeff",
+            "name" : "Response",
+            "source" : "277659fd82a2eeff.json",
+            "type" : "application/json",
+            "size" : 83
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/element/ea36ea6e-ecf9-4194-975a-1214b06ea994/click",
+          "time" : {
+            "start" : 1636297101248,
+            "stop" : 1636297103960,
+            "duration" : 2712
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297103963,
+            "stop" : 1636297103974,
+            "duration" : 11
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "c47f1f39170904a",
+            "name" : "Response",
+            "source" : "c47f1f39170904a.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297104472,
+            "stop" : 1636297104517,
+            "duration" : 45
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "96e65bea9e14cb6",
+            "name" : "Response",
+            "source" : "96e65bea9e14cb6.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297104976,
+            "stop" : 1636297104983,
+            "duration" : 7
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "8be16550965d5dfd",
+            "name" : "Response",
+            "source" : "8be16550965d5dfd.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297105478,
+            "stop" : 1636297105496,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "5ba1df89685b8102",
+            "name" : "Response",
+            "source" : "5ba1df89685b8102.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297105977,
+            "stop" : 1636297105984,
+            "duration" : 7
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "2ff534938a05e8b0",
+            "name" : "Response",
+            "source" : "2ff534938a05e8b0.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297106463,
+            "stop" : 1636297106471,
+            "duration" : 8
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "bbaa3290cb2920ec",
+            "name" : "Response",
+            "source" : "bbaa3290cb2920ec.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297106969,
+            "stop" : 1636297106976,
+            "duration" : 7
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "1b32a3495c26244d",
+            "name" : "Response",
+            "source" : "1b32a3495c26244d.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297107474,
+            "stop" : 1636297107482,
+            "duration" : 8
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "6f6a5bbf0d746c6a",
+            "name" : "Response",
+            "source" : "6f6a5bbf0d746c6a.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297107968,
+            "stop" : 1636297107974,
+            "duration" : 6
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "a10c18c2d3665bdc",
+            "name" : "Response",
+            "source" : "a10c18c2d3665bdc.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297108473,
+            "stop" : 1636297108479,
+            "duration" : 6
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "812a6c9b1410b8c4",
+            "name" : "Response",
+            "source" : "812a6c9b1410b8c4.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297108967,
+            "stop" : 1636297108975,
+            "duration" : 8
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "c76431811e2014cc",
+            "name" : "Response",
+            "source" : "c76431811e2014cc.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297109468,
+            "stop" : 1636297109610,
+            "duration" : 142
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "a9aa50779f0b309c",
+            "name" : "Response",
+            "source" : "a9aa50779f0b309c.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297109975,
+            "stop" : 1636297109981,
+            "duration" : 6
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "530c927f07907b17",
+            "name" : "Response",
+            "source" : "530c927f07907b17.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297110464,
+            "stop" : 1636297110471,
+            "duration" : 7
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "d60f918b0c6f7915",
+            "name" : "Response",
+            "source" : "d60f918b0c6f7915.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297110972,
+            "stop" : 1636297110980,
+            "duration" : 8
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "3cb0b348abb4c4d6",
+            "name" : "Response",
+            "source" : "3cb0b348abb4c4d6.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297111473,
+            "stop" : 1636297111491,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "1655715ab65f796f",
+            "name" : "Response",
+            "source" : "1655715ab65f796f.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297111964,
+            "stop" : 1636297159273,
+            "duration" : 47309
+          },
+          "status" : "broken",
+          "statusMessage" : "Error: Timeout of 60000ms exceeded. The execution in the test \"Explore Model Recharge One Million Page should verify explore model recharge link successfully opened\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\explore.model.recharge.spec.js)\n                    at createTimeoutError (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\errors.js:498:15)\n                    at Test.Runnable._timeoutError (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\runnable.js:431:10)\n                    at Timeout.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\runnable.js:246:24)\n                    at listOnTimeout (node:internal/timers:557:17)\n                    at processTimers (node:internal/timers:500:7)",
+          "steps" : [ {
+            "name" : "GET /session/:sessionId/screenshot",
+            "time" : {
+              "start" : 1636297113968,
+              "stop" : 1636297159273,
+              "duration" : 45305
+            },
+            "status" : "broken",
+            "statusMessage" : "Error: Timeout of 60000ms exceeded. The execution in the test \"Explore Model Recharge One Million Page should verify explore model recharge link successfully opened\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\explore.model.recharge.spec.js)\n                    at createTimeoutError (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\errors.js:498:15)\n                    at Test.Runnable._timeoutError (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\runnable.js:431:10)\n                    at Timeout.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\node_modules\\mocha\\lib\\runnable.js:246:24)\n                    at listOnTimeout (node:internal/timers:557:17)\n                    at processTimers (node:internal/timers:500:7)",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : true,
+            "attachmentsCount" : 0,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 1,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 18,
+        "stepsCount" : 20,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "c65388a7796fe155",
+        "name" : "Request",
+        "source" : "c65388a7796fe155.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 31,
+      "stepsCount" : 29,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 31,
+    "stepsCount" : 30,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Explore Model Recharge One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Explore Model Recharge One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify explore model recharge link successfully opened"
+  }, {
+    "name" : "package",
+    "value" : "Explore Model Recharge One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "797956ceba0c0bed.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

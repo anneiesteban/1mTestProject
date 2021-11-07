@@ -1,0 +1,357 @@
+{
+  "uid" : "838f682b2e245e4b",
+  "name" : "should verify car safety link successfully opened",
+  "fullName" : "Car Safety One Million Page.should verify car safety link successfully opened",
+  "historyId" : "a40eae01d612fcb28d24287e84094a6d",
+  "time" : {
+    "start" : 1636298639771,
+    "stop" : 1636298643576,
+    "duration" : 3805
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1636298639773,
+        "stop" : 0,
+        "duration" : -1636298639773
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636298639780,
+          "stop" : 1636298641690,
+          "duration" : 1910
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636298639783,
+            "stop" : 1636298641676,
+            "duration" : 1893
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "ea77252c9068577f",
+            "name" : "Request",
+            "source" : "ea77252c9068577f.json",
+            "type" : "application/json",
+            "size" : 78
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "9274d576d542c553",
+          "name" : "Request",
+          "source" : "9274d576d542c553.json",
+          "type" : "application/json",
+          "size" : 59
+        }, {
+          "uid" : "7d55fb1f074ebd1a",
+          "name" : "Response",
+          "source" : "7d55fb1f074ebd1a.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 3,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636298641697,
+          "stop" : 1636298641716,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "afa341c66ff59098",
+          "name" : "Request",
+          "source" : "afa341c66ff59098.json",
+          "type" : "application/json",
+          "size" : 8337
+        }, {
+          "uid" : "e2e2acef6d9076a5",
+          "name" : "Response",
+          "source" : "e2e2acef6d9076a5.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636298641719,
+          "stop" : 1636298641737,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3dc38cc4af11301d",
+          "name" : "Request",
+          "source" : "3dc38cc4af11301d.json",
+          "type" : "application/json",
+          "size" : 8337
+        }, {
+          "uid" : "6ee052897595a28b",
+          "name" : "Response",
+          "source" : "6ee052897595a28b.json",
+          "type" : "application/json",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636298641739,
+          "stop" : 1636298641749,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2aae28c582563f52",
+          "name" : "Request",
+          "source" : "2aae28c582563f52.json",
+          "type" : "application/json",
+          "size" : 59
+        }, {
+          "uid" : "8bb43f0bf69fb8e9",
+          "name" : "Response",
+          "source" : "8bb43f0bf69fb8e9.json",
+          "type" : "application/json",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/796371da-c268-4779-bf87-16f2d70b1943/click",
+        "time" : {
+          "start" : 1636298641749,
+          "stop" : 1636298641761,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f2f3dc45523b8863",
+          "name" : "Response",
+          "source" : "f2f3dc45523b8863.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/13fd1d5a-d2ca-45e1-b3cb-36efb8e7ce0c/click",
+        "time" : {
+          "start" : 1636298641763,
+          "stop" : 1636298641964,
+          "duration" : 201
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636298641840,
+            "stop" : 1636298641946,
+            "duration" : 106
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "c28002fd0f4e731e",
+            "name" : "Request",
+            "source" : "c28002fd0f4e731e.json",
+            "type" : "application/json",
+            "size" : 78
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "243666651683c742",
+          "name" : "Response",
+          "source" : "243666651683c742.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/796371da-c268-4779-bf87-16f2d70b1943/click",
+        "time" : {
+          "start" : 1636298641965,
+          "stop" : 0,
+          "duration" : -1636298641965
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636298641977,
+            "stop" : 1636298641995,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "2c976eb784cad68e",
+            "name" : "Request",
+            "source" : "2c976eb784cad68e.json",
+            "type" : "application/json",
+            "size" : 78
+          }, {
+            "uid" : "dcb77ce9ad3a1d5a",
+            "name" : "Response",
+            "source" : "dcb77ce9ad3a1d5a.json",
+            "type" : "application/json",
+            "size" : 83
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/element/d2399222-d798-4cea-b32c-67d99ce431e8/click",
+          "time" : {
+            "start" : 1636298641997,
+            "stop" : 1636298643504,
+            "duration" : 1507
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636298643505,
+            "stop" : 1636298643572,
+            "duration" : 67
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "d7639edc46c9990e",
+            "name" : "Response",
+            "source" : "d7639edc46c9990e.json",
+            "type" : "application/json",
+            "size" : 45
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 3,
+        "stepsCount" : 3,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "492c6b0deecc967f",
+        "name" : "Request",
+        "source" : "492c6b0deecc967f.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 16,
+      "stepsCount" : 12,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 16,
+    "stepsCount" : 13,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Car Safety One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Car Safety One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify car safety link successfully opened"
+  }, {
+    "name" : "package",
+    "value" : "Car Safety One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "838f682b2e245e4b.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

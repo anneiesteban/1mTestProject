@@ -1,0 +1,417 @@
+{
+  "uid" : "d4fb02d0b3e3d9e1",
+  "name" : "should verify explore model learn link successfully opened",
+  "fullName" : "Explore Model Learn One Million Page.should verify explore model learn link successfully opened",
+  "historyId" : "bdc621a01d01737733fb5acbe6e6a4e9",
+  "time" : {
+    "start" : 1636295694510,
+    "stop" : 1636295702460,
+    "duration" : 7950
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "browser.call is not a function",
+  "statusTrace" : "TypeError: browser.call is not a function\n                    at Object.toHaveUrlFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveUrl.js:9:20)\n                    at Object.toHaveUrlContainingFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveUrlContaining.js:7:36)\n                    at Object.runJestExpect (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\util\\expectAdapter.js:10:15)\n                    at Object.toHaveUrlContaining (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveUrlContaining.js:13:38)\n                    at __EXTERNAL_MATCHER_TRAP__ (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect\\build\\index.js:386:30)\n                    at Object.throwingMatcher [as toHaveUrlContaining] (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect\\build\\index.js:387:15)\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\explore.model.learn.spec.js:15:35)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "browser.call is not a function",
+    "statusTrace" : "TypeError: browser.call is not a function\n                    at Object.toHaveUrlFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveUrl.js:9:20)\n                    at Object.toHaveUrlContainingFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveUrlContaining.js:7:36)\n                    at Object.runJestExpect (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\util\\expectAdapter.js:10:15)\n                    at Object.toHaveUrlContaining (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveUrlContaining.js:13:38)\n                    at __EXTERNAL_MATCHER_TRAP__ (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect\\build\\index.js:386:30)\n                    at Object.throwingMatcher [as toHaveUrlContaining] (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect\\build\\index.js:387:15)\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\explore.model.learn.spec.js:15:35)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1636295694511,
+        "stop" : 1636295702460,
+        "duration" : 7949
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: browser.call is not a function\n                    at Object.toHaveUrlFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveUrl.js:9:20)\n                    at Object.toHaveUrlContainingFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveUrlContaining.js:7:36)\n                    at Object.runJestExpect (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\util\\expectAdapter.js:10:15)\n                    at Object.toHaveUrlContaining (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveUrlContaining.js:13:38)\n                    at __EXTERNAL_MATCHER_TRAP__ (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect\\build\\index.js:386:30)\n                    at Object.throwingMatcher [as toHaveUrlContaining] (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect\\build\\index.js:387:15)\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\explore.model.learn.spec.js:15:35)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636295694518,
+          "stop" : 1636295696107,
+          "duration" : 1589
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636295694521,
+            "stop" : 1636295696092,
+            "duration" : 1571
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "91cdad12cd77dfd0",
+            "name" : "Request",
+            "source" : "91cdad12cd77dfd0.json",
+            "type" : "application/json",
+            "size" : 136
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "d345e1e94e336a30",
+          "name" : "Request",
+          "source" : "d345e1e94e336a30.json",
+          "type" : "application/json",
+          "size" : 59
+        }, {
+          "uid" : "b46de46a6081b867",
+          "name" : "Response",
+          "source" : "b46de46a6081b867.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 3,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636295696114,
+          "stop" : 1636295696139,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e0e4395e16a29946",
+          "name" : "Request",
+          "source" : "e0e4395e16a29946.json",
+          "type" : "application/json",
+          "size" : 8337
+        }, {
+          "uid" : "803ae1c6559e2f95",
+          "name" : "Response",
+          "source" : "803ae1c6559e2f95.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636295696142,
+          "stop" : 1636295696158,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "92b1e450efce69dc",
+          "name" : "Request",
+          "source" : "92b1e450efce69dc.json",
+          "type" : "application/json",
+          "size" : 8337
+        }, {
+          "uid" : "f65f82e2d5159166",
+          "name" : "Response",
+          "source" : "f65f82e2d5159166.json",
+          "type" : "application/json",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636295696159,
+          "stop" : 1636295696166,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c8202d658883da22",
+          "name" : "Request",
+          "source" : "c8202d658883da22.json",
+          "type" : "application/json",
+          "size" : 59
+        }, {
+          "uid" : "743abed8b5feeff4",
+          "name" : "Response",
+          "source" : "743abed8b5feeff4.json",
+          "type" : "application/json",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/1b7faf27-6e0f-4a22-b72d-2f7b77ffb396/click",
+        "time" : {
+          "start" : 1636295696167,
+          "stop" : 1636295696175,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "61390f8a36f97098",
+          "name" : "Response",
+          "source" : "61390f8a36f97098.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/3999d374-ebb1-4036-bd0f-c28c7c310d08/click",
+        "time" : {
+          "start" : 1636295696177,
+          "stop" : 1636295696457,
+          "duration" : 280
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636295696348,
+            "stop" : 1636295696447,
+            "duration" : 99
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "4364746718a5a961",
+            "name" : "Request",
+            "source" : "4364746718a5a961.json",
+            "type" : "application/json",
+            "size" : 136
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "e956cbe16e801343",
+          "name" : "Response",
+          "source" : "e956cbe16e801343.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/1b7faf27-6e0f-4a22-b72d-2f7b77ffb396/click",
+        "time" : {
+          "start" : 1636295696458,
+          "stop" : 1636295702460,
+          "duration" : 6002
+        },
+        "status" : "broken",
+        "statusMessage" : "TypeError: browser.call is not a function\n                    at Object.toHaveUrlFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveUrl.js:9:20)\n                    at Object.toHaveUrlContainingFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveUrlContaining.js:7:36)\n                    at Object.runJestExpect (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\util\\expectAdapter.js:10:15)\n                    at Object.toHaveUrlContaining (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\browser\\toHaveUrlContaining.js:13:38)\n                    at __EXTERNAL_MATCHER_TRAP__ (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect\\build\\index.js:386:30)\n                    at Object.throwingMatcher [as toHaveUrlContaining] (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect\\build\\index.js:387:15)\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\explore.model.learn.spec.js:15:35)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636295696467,
+            "stop" : 1636295696483,
+            "duration" : 16
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "16753928dfdb4766",
+            "name" : "Request",
+            "source" : "16753928dfdb4766.json",
+            "type" : "application/json",
+            "size" : 136
+          }, {
+            "uid" : "9857561326081aca",
+            "name" : "Response",
+            "source" : "9857561326081aca.json",
+            "type" : "application/json",
+            "size" : 83
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/element/8cbab399-7cf8-4749-aefe-2b0ff0304d40/click",
+          "time" : {
+            "start" : 1636295696486,
+            "stop" : 1636295702265,
+            "duration" : 5779
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636295702265,
+            "stop" : 1636295702282,
+            "duration" : 17
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "67e0b43db08bce83",
+            "name" : "Request",
+            "source" : "67e0b43db08bce83.json",
+            "type" : "application/json",
+            "size" : 173
+          }, {
+            "uid" : "a22027edc67903bd",
+            "name" : "Response",
+            "source" : "a22027edc67903bd.json",
+            "type" : "application/json",
+            "size" : 83
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/execute/sync",
+          "time" : {
+            "start" : 1636295702284,
+            "stop" : 1636295702301,
+            "duration" : 17
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "f3b752f107f10540",
+            "name" : "Request",
+            "source" : "f3b752f107f10540.json",
+            "type" : "application/json",
+            "size" : 8337
+          }, {
+            "uid" : "4667523ebe201823",
+            "name" : "Response",
+            "source" : "4667523ebe201823.json",
+            "type" : "application/json",
+            "size" : 4
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/screenshot",
+          "time" : {
+            "start" : 1636295702303,
+            "stop" : 1636295702459,
+            "duration" : 156
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "98588f1e16819396",
+            "name" : "Screenshot",
+            "source" : "98588f1e16819396.png",
+            "type" : "image/png",
+            "size" : 236757
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 7,
+        "stepsCount" : 5,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "f52307684c94b0ec",
+        "name" : "Request",
+        "source" : "f52307684c94b0ec.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 20,
+      "stepsCount" : 14,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 20,
+    "stepsCount" : 15,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Explore Model Learn One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Explore Model Learn One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify explore model learn link successfully opened"
+  }, {
+    "name" : "package",
+    "value" : "Explore Model Learn One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4fb02d0b3e3d9e1.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

@@ -1,0 +1,134 @@
+{
+  "uid" : "b1e7a12373cf0b85",
+  "name" : "\"before all\" hook for One Million Page",
+  "fullName" : "One Million Page.\"before all\" hook for One Million Page",
+  "historyId" : "5da51833e60e124faf428081287d3a8b",
+  "time" : {
+    "start" : 1636279000206,
+    "stop" : 1636279000245,
+    "duration" : 39
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "acceptCookie is not defined",
+  "statusTrace" : "ReferenceError: acceptCookie is not defined\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\one.million.spec.js:9:27)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "acceptCookie is not defined",
+    "statusTrace" : "ReferenceError: acceptCookie is not defined\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\one.million.spec.js:9:27)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1636279000208,
+        "stop" : 1636279000244,
+        "duration" : 36
+      },
+      "status" : "broken",
+      "statusMessage" : "ReferenceError: acceptCookie is not defined\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\one.million.spec.js:9:27)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1636279000214,
+          "stop" : 1636279000237,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "76ccfc773308e119",
+          "name" : "Request",
+          "source" : "76ccfc773308e119.json",
+          "type" : "application/json",
+          "size" : 74
+        }, {
+          "uid" : "bc04b9de4cf2442e",
+          "name" : "Response",
+          "source" : "bc04b9de4cf2442e.json",
+          "type" : "application/json",
+          "size" : 1156
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "42e936639c455d70",
+        "name" : "Request",
+        "source" : "42e936639c455d70.json",
+        "type" : "application/json",
+        "size" : 215
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 3,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for One Million Page"
+  }, {
+    "name" : "package",
+    "value" : "One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f621f5145a5d62ef",
+      "status" : "broken",
+      "statusDetails" : "acceptCookie is not defined",
+      "time" : {
+        "start" : 1636278948502,
+        "stop" : 1636278948538,
+        "duration" : 36
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b1e7a12373cf0b85.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

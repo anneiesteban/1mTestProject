@@ -1,0 +1,4338 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "should verify car safety link successfully opened",
+      "uid" : "5e7d519dafc7a266",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636298879494,
+        "stop" : 1636298882734,
+        "duration" : 3240
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "5ca2125ab46f4e0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636282381546,
+        "stop" : 1636282381562,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "122c7846dfce8ffd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636284930175,
+        "stop" : 1636284931597,
+        "duration" : 1422
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "9867097226bc26d4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306725195,
+        "stop" : 1636306727866,
+        "duration" : 2671
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "dbd455ef47b1e6f9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636285177452,
+        "stop" : 1636285180783,
+        "duration" : 3331
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "e5731621bcb344f6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636300024529,
+        "stop" : 1636300025972,
+        "duration" : 1443
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model shop link successfully opened",
+      "uid" : "3ba43cddb3041967",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636296907892,
+        "stop" : 1636296911911,
+        "duration" : 4019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "121b7bb2a87785da",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636305475782,
+        "stop" : 1636305477197,
+        "duration" : 1415
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "2ea7616fd999c488",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636255209068,
+        "stop" : 1636255219142,
+        "duration" : 10074
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "cdcaee3bb0ad519c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636299723405,
+        "stop" : 1636299724796,
+        "duration" : 1391
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "fe013e12bd78782e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636280537001,
+        "stop" : 1636280538596,
+        "duration" : 1595
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "96e61b21a7a66f2e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636279649364,
+        "stop" : 1636279651095,
+        "duration" : 1731
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "4975256b960bb2fa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636280322677,
+        "stop" : 1636280324570,
+        "duration" : 1893
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "880898a74eeb5e14",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636269903652,
+        "stop" : 1636269907839,
+        "duration" : 4187
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "40fdd91928ebdcdd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636304388376,
+        "stop" : 1636304389708,
+        "duration" : 1332
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model shop link successfully opened",
+      "uid" : "c9d90a66595311e8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636308297139,
+        "stop" : 1636308300860,
+        "duration" : 3721
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "7b6716afacc41143",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636304982197,
+        "stop" : 1636304982209,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "3031c87d6058c0b8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636274616131,
+        "stop" : 1636274617394,
+        "duration" : 1263
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "cb9eb9d373e83dfd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302065351,
+        "stop" : 1636302067323,
+        "duration" : 1972
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "3cf9448b95b0f68f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636304111506,
+        "stop" : 1636304111525,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "4d1b19ea6bd30371",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636280825844,
+        "stop" : 1636280825861,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "c774b7bb709cfaba",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306646783,
+        "stop" : 1636306649664,
+        "duration" : 2881
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "3ecdcb36c92b0eb8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636277158431,
+        "stop" : 1636277159636,
+        "duration" : 1205
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify decades of innovation link successfully opened",
+      "uid" : "12dae7f85be8bcc3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1636294249463,
+        "stop" : 1636294263244,
+        "duration" : 13781
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model learn link successfully opened",
+      "uid" : "6efab52457adcc8e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1636296146251,
+        "stop" : 1636296151939,
+        "duration" : 5688
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "cfdb55f9c9eaea18",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302007066,
+        "stop" : 1636302007076,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "2d7681bed1b361a5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636300126135,
+        "stop" : 1636300127696,
+        "duration" : 1561
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify footer legal link successfully opened",
+      "uid" : "7ec79b3b598bc321",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636294699334,
+        "stop" : 1636294702718,
+        "duration" : 3384
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "4da6849638b93767",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636275548639,
+        "stop" : 1636275550269,
+        "duration" : 1630
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model learn link successfully opened",
+      "uid" : "7f61ce2865536660",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636295642270,
+        "stop" : 1636295649286,
+        "duration" : 7016
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "43a6054e75541778",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636277940387,
+        "stop" : 1636277941800,
+        "duration" : 1413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "353bd26e0dff18f8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636304015365,
+        "stop" : 1636304015387,
+        "duration" : 22
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "d1e9299df4fac9f0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299677476,
+        "stop" : 1636299678829,
+        "duration" : 1353
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "2be1f99b3bc623da",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306047546,
+        "stop" : 1636306047557,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify car safety Child Safety link successfully opened",
+      "uid" : "736d7633b55b729f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636309100913,
+        "stop" : 1636309105682,
+        "duration" : 4769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model shop link successfully opened",
+      "uid" : "13d69d306e527e8c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636296879555,
+        "stop" : 1636296883808,
+        "duration" : 4253
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "ed5d9d3daf5d2041",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636291788114,
+        "stop" : 1636291790968,
+        "duration" : 2854
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "3112d59203796b94",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636304412449,
+        "stop" : 1636304413780,
+        "duration" : 1331
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model learn link successfully opened",
+      "uid" : "443ddcd33ce7d11d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636296465509,
+        "stop" : 1636296469425,
+        "duration" : 3916
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model learn link successfully opened",
+      "uid" : "df907f43248beb99",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636296299689,
+        "stop" : 1636296305473,
+        "duration" : 5784
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "8faa68b5b570e0d9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636304271097,
+        "stop" : 1636304272667,
+        "duration" : 1570
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "37de585ff7cf836e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302339005,
+        "stop" : 1636302339899,
+        "duration" : 894
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "cbeeb9e84aa70679",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636279382953,
+        "stop" : 1636279384811,
+        "duration" : 1858
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify decades of innovation link successfully opened",
+      "uid" : "c6e593ad32c206ef",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636294190086,
+        "stop" : 1636294196793,
+        "duration" : 6707
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model learn link successfully opened",
+      "uid" : "93438a790c25587b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1636296081224,
+        "stop" : 1636296088158,
+        "duration" : 6934
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "482e6efebb46b9b7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302423839,
+        "stop" : 1636302425179,
+        "duration" : 1340
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "f9aca032c5c7cc61",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636280942330,
+        "stop" : 1636280943551,
+        "duration" : 1221
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "45b3da1a2711e09a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302005661,
+        "stop" : 1636302007061,
+        "duration" : 1400
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify footer cookies link successfully opened",
+      "uid" : "86700adb97c1e05d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636307927469,
+        "stop" : 1636307930592,
+        "duration" : 3123
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "b74157b38f90f781",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636291279614,
+        "stop" : 1636291288790,
+        "duration" : 9176
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "de5e18ca7e404d75",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636289183366,
+        "stop" : 1636289185332,
+        "duration" : 1966
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "a2aabc6db5b881ff",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302338991,
+        "stop" : 1636302339004,
+        "duration" : 13
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "3216b991c9308510",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636281447054,
+        "stop" : 1636281448743,
+        "duration" : 1689
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "a0a43f0e4044ba33",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293120942,
+        "stop" : 1636293125652,
+        "duration" : 4710
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "4ae0e137ca43010a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299478139,
+        "stop" : 1636299478151,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "e2b430637b95f02b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293426779,
+        "stop" : 1636293427972,
+        "duration" : 1193
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "904990c710891317",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636289632793,
+        "stop" : 1636289636752,
+        "duration" : 3959
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "29bc98d047738466",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636280077722,
+        "stop" : 1636280079551,
+        "duration" : 1829
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model learn link successfully opened",
+      "uid" : "3929a493886d9e28",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636295556073,
+        "stop" : 1636295562978,
+        "duration" : 6905
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model recharge link successfully opened",
+      "uid" : "797956ceba0c0bed",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636297099257,
+        "stop" : 1636297159273,
+        "duration" : 60016
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "a43bc25bce3cdf0d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636300194854,
+        "stop" : 1636300196508,
+        "duration" : 1654
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "cf6b96f135805d89",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636304193931,
+        "stop" : 1636304195276,
+        "duration" : 1345
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "ef2c59359b2e97c2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293425003,
+        "stop" : 1636293426779,
+        "duration" : 1776
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "f249303d1f3722e0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636277057130,
+        "stop" : 1636277058484,
+        "duration" : 1354
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "a1845123878d9026",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636283845363,
+        "stop" : 1636283847127,
+        "duration" : 1764
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "79252b8a73261018",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293117011,
+        "stop" : 1636293120179,
+        "duration" : 3168
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "2e1be5c937a5834e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636283362811,
+        "stop" : 1636283364212,
+        "duration" : 1401
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify car safety driver assistance link successfully opened",
+      "uid" : "c37ce89f8a928721",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1636298643576,
+        "stop" : 1636298657287,
+        "duration" : 13711
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "ab433ab599784592",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302396969,
+        "stop" : 1636302397865,
+        "duration" : 896
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify decades of innovation link successfully opened",
+      "uid" : "9eee3e9c6cdd770e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636294290426,
+        "stop" : 1636294293823,
+        "duration" : 3397
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "ad9c225313be60a4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302069290,
+        "stop" : 1636302069298,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "35af2fa71e0d3848",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636273526943,
+        "stop" : 1636273528712,
+        "duration" : 1769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "a51b6abf1ff56a0a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636279116826,
+        "stop" : 1636279118679,
+        "duration" : 1853
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "dff19eb8518cfe15",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636274501964,
+        "stop" : 1636274501972,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "47ffafb501b3498",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636283688520,
+        "stop" : 1636283690075,
+        "duration" : 1555
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model learn link successfully opened",
+      "uid" : "147607aea721f731",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636308466518,
+        "stop" : 1636308470043,
+        "duration" : 3525
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "d5897bccb4c5c31",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636293251825,
+        "stop" : 1636293262335,
+        "duration" : 10510
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify car safety link successfully opened",
+      "uid" : "11c4ac84f44bf3f9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636298777353,
+        "stop" : 1636298781016,
+        "duration" : 3663
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "9295a17e0d1089aa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636305856925,
+        "stop" : 1636305856941,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "52531c89d8671612",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636280563808,
+        "stop" : 1636280565577,
+        "duration" : 1769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "f00a6d94ba12f252",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1636286289420,
+        "stop" : 1636286307638,
+        "duration" : 18218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "59e3ef1106e98833",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293339601,
+        "stop" : 1636293340763,
+        "duration" : 1162
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "6e7ac71303471fbc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302397866,
+        "stop" : 1636302397876,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "10433ca0df058eb4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293410889,
+        "stop" : 1636293413652,
+        "duration" : 2763
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "97b59628c615ae04",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306291115,
+        "stop" : 1636306292145,
+        "duration" : 1030
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "f12647a689e9b3ae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636307538524,
+        "stop" : 1636307540134,
+        "duration" : 1610
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify car safety driver assistance link successfully opened",
+      "uid" : "d26499a5a64c6ee",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299054540,
+        "stop" : 1636299058565,
+        "duration" : 4025
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "cffbe60565d20bbb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636305011283,
+        "stop" : 1636305011295,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "a1162609c51f7fdd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636279982652,
+        "stop" : 1636279984352,
+        "duration" : 1700
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "c12b1aa0add4b643",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636292504392,
+        "stop" : 1636292507443,
+        "duration" : 3051
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify footer social media link successfully opened",
+      "uid" : "9accaf8633be243c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636307253504,
+        "stop" : 1636307257756,
+        "duration" : 4252
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "f2e24470bd1c283b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636291144909,
+        "stop" : 1636291157173,
+        "duration" : 12264
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "8eac0acc718d3ada",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302235872,
+        "stop" : 1636302235883,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "36941e1c783ceacf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636305768441,
+        "stop" : 1636305768458,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify car safety driver assistance link successfully opened",
+      "uid" : "1b00dabc36ab7fab",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1636298882734,
+        "stop" : 1636298894332,
+        "duration" : 11598
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "384b90cd5e77cab",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302277579,
+        "stop" : 1636302278917,
+        "duration" : 1338
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model learn link successfully opened",
+      "uid" : "a4c3589fb915eb1a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1636296125740,
+        "stop" : 1636296131207,
+        "duration" : 5467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "17d55c733a6e72da",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636291771808,
+        "stop" : 1636291776225,
+        "duration" : 4417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "658ebdaf234c926",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636300815838,
+        "stop" : 1636300817759,
+        "duration" : 1921
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "72f5c22d7695ff21",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636291374622,
+        "stop" : 1636291386183,
+        "duration" : 11561
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model shop link successfully opened",
+      "uid" : "30101fb90525f20d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636308212219,
+        "stop" : 1636308219036,
+        "duration" : 6817
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "32ebddd908f5906b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302233758,
+        "stop" : 1636302234943,
+        "duration" : 1185
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model mild hybrid cars link successfully opened",
+      "uid" : "20450d91fc92276f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636297383389,
+        "stop" : 1636297386456,
+        "duration" : 3067
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "574c9b378b4908e3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636292448228,
+        "stop" : 1636292451527,
+        "duration" : 3299
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "1725d98db0d84347",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636284953904,
+        "stop" : 1636284956920,
+        "duration" : 3016
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "9d9883ad8e2b2ff7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306159013,
+        "stop" : 1636306160031,
+        "duration" : 1018
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "54d1dfdbc660c29",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636305069610,
+        "stop" : 1636305069622,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "45ee423fd8474122",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636303747143,
+        "stop" : 1636303748627,
+        "duration" : 1484
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "2d51363c81f6b4a4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636291037977,
+        "stop" : 1636291049857,
+        "duration" : 11880
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "4bb2a87e2c947431",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636291828617,
+        "stop" : 1636291831523,
+        "duration" : 2906
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "40e9b05521a0651c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636277237359,
+        "stop" : 1636277238519,
+        "duration" : 1160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify menu successfully opened",
+      "uid" : "affc6f4e80638b5c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306506905,
+        "stop" : 1636306511545,
+        "duration" : 4640
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "fb8e0c5fcbf32267",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636271723201,
+        "stop" : 1636271737543,
+        "duration" : 14342
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "e25cacebf42874df",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636284105723,
+        "stop" : 1636284110781,
+        "duration" : 5058
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "91df118fdb82263f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306046231,
+        "stop" : 1636306047537,
+        "duration" : 1306
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "dd002e5c205a98d8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636284500771,
+        "stop" : 1636284503718,
+        "duration" : 2947
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "d799f4eb8e873ccf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636283312093,
+        "stop" : 1636283313410,
+        "duration" : 1317
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify car safety driver assistance link successfully opened",
+      "uid" : "2ce1e572d3bab176",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1636298781017,
+        "stop" : 1636298793058,
+        "duration" : 12041
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "6de7bb4c74a06680",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306737323,
+        "stop" : 1636306740214,
+        "duration" : 2891
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model mild hybrid cars link successfully opened",
+      "uid" : "b1c31e1e6b405707",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636297368529,
+        "stop" : 1636297372992,
+        "duration" : 4463
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "486acbe682157ac9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306160032,
+        "stop" : 1636306161148,
+        "duration" : 1116
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify menu successfully opened",
+      "uid" : "13dc9b82bdc81236",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636290182354,
+        "stop" : 1636290186895,
+        "duration" : 4541
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "12119bd71897cbc7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636305815601,
+        "stop" : 1636305815616,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "52a2b98c82c3f918",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636284201700,
+        "stop" : 1636284204883,
+        "duration" : 3183
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "bc82b87c0979a688",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636282691208,
+        "stop" : 1636282691221,
+        "duration" : 13
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "a18b6bd415d40577",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636279146493,
+        "stop" : 1636279148462,
+        "duration" : 1969
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "7096abf42d079fea",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636274652444,
+        "stop" : 1636274653676,
+        "duration" : 1232
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "cd6a4c19df0be901",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636278191710,
+        "stop" : 1636278193040,
+        "duration" : 1330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify footer privacy link successfully opened",
+      "uid" : "ba2978c9b3bdf99c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636307716705,
+        "stop" : 1636307719973,
+        "duration" : 3268
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "9f5bf2edef36f513",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636284844278,
+        "stop" : 1636284849186,
+        "duration" : 4908
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "fbb34b10221aa66c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293120179,
+        "stop" : 1636293120941,
+        "duration" : 762
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "b968ba27260a7015",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636305915325,
+        "stop" : 1636305920771,
+        "duration" : 5446
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "991b1a5df59ab7e6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636285010136,
+        "stop" : 1636285011366,
+        "duration" : 1230
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify footer cookies link successfully opened",
+      "uid" : "de130272e86f0bf1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636307940105,
+        "stop" : 1636307943108,
+        "duration" : 3003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify car safety driver assistance link successfully opened",
+      "uid" : "c5e9b0cc126b8069",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1636298982159,
+        "stop" : 1636298994379,
+        "duration" : 12220
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "99661fc31725865",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636305430956,
+        "stop" : 1636305433163,
+        "duration" : 2207
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify car safety Child Safety link successfully opened",
+      "uid" : "5bf85e510f82264",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636308970400,
+        "stop" : 1636308973813,
+        "duration" : 3413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model recharge link successfully opened",
+      "uid" : "9faedb8a40951e7f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636297222693,
+        "stop" : 1636297226551,
+        "duration" : 3858
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "739bbf4acffd240c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636292604773,
+        "stop" : 1636292607933,
+        "duration" : 3160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "798f423c21719bfc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636271756280,
+        "stop" : 1636271762325,
+        "duration" : 6045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "ef62c6db0763584d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636272514246,
+        "stop" : 1636272523051,
+        "duration" : 8805
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "43deb5fdc5a77934",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636280198340,
+        "stop" : 1636280200347,
+        "duration" : 2007
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "632ccf673c51d221",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302133193,
+        "stop" : 1636302134088,
+        "duration" : 895
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "d9d63152717012a7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636304391912,
+        "stop" : 1636304391923,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "5a8cdc5aadab694b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636284151791,
+        "stop" : 1636284157534,
+        "duration" : 5743
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "9a2fb209b093031a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302278936,
+        "stop" : 1636302279844,
+        "duration" : 908
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "aaa79f2b3fb3b632",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299548134,
+        "stop" : 1636299552915,
+        "duration" : 4781
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "f3869f6e1b4b986f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636284412238,
+        "stop" : 1636284415484,
+        "duration" : 3246
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "7b594502edd448d9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293482211,
+        "stop" : 1636293483967,
+        "duration" : 1756
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "ca871477a2c8e746",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636282790345,
+        "stop" : 1636282790360,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "3f3e50738fb54602",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636283029106,
+        "stop" : 1636283029121,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "158fff5a114cca92",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302395698,
+        "stop" : 1636302396942,
+        "duration" : 1244
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify footer privacy link successfully opened",
+      "uid" : "2bc0fea7d5c1b0ae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636307783784,
+        "stop" : 1636307787395,
+        "duration" : 3611
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "1b8292ea3df3a8d4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302007077,
+        "stop" : 1636302007950,
+        "duration" : 873
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "6478531b4d9036b3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636305141715,
+        "stop" : 1636305141727,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "17912c0983c2d119",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636303886680,
+        "stop" : 1636303886704,
+        "duration" : 24
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model learn link successfully opened",
+      "uid" : "ba5cca0f07f89213",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636295926464,
+        "stop" : 1636295943321,
+        "duration" : 16857
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "e61455bf48ed26de",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636304435434,
+        "stop" : 1636304446788,
+        "duration" : 11354
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "40552e1a028b025c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636305829513,
+        "stop" : 1636305829528,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "6e48684f3d4cf2d6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302131842,
+        "stop" : 1636302133177,
+        "duration" : 1335
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "856fec430e591c94",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636279032148,
+        "stop" : 1636279034121,
+        "duration" : 1973
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "d83dd096baf1fcc1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636278023080,
+        "stop" : 1636278023097,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "8ba0181e26a4d99f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636286369112,
+        "stop" : 1636286377826,
+        "duration" : 8714
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify car safety link successfully opened",
+      "uid" : "838f682b2e245e4b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636298639771,
+        "stop" : 1636298643576,
+        "duration" : 3805
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "5358b92ef993e4a5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302067337,
+        "stop" : 1636302067348,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "6ba809164ced7a19",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636291816647,
+        "stop" : 1636291819517,
+        "duration" : 2870
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "e50b84b78b9b0a58",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299876724,
+        "stop" : 1636299878142,
+        "duration" : 1418
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "c0b3a2f94ef13c93",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636274596119,
+        "stop" : 1636274597348,
+        "duration" : 1229
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify privacy legal link successfully opened",
+      "uid" : "74a54844de0a67cd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636294842515,
+        "stop" : 1636294845763,
+        "duration" : 3248
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "ef8aaad05e0b59e1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636282320498,
+        "stop" : 1636282320514,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "37b97f8a3477c82f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636279690355,
+        "stop" : 1636279692170,
+        "duration" : 1815
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "8b8422c1f68176ef",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636301422171,
+        "stop" : 1636301423920,
+        "duration" : 1749
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "856348983d634cc4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293322914,
+        "stop" : 1636293325787,
+        "duration" : 2873
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "e5782d463154a0a1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293337819,
+        "stop" : 1636293339601,
+        "duration" : 1782
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "ce5617b00f965fdd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636283562298,
+        "stop" : 1636283563659,
+        "duration" : 1361
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "b03e5898de684916",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636281558521,
+        "stop" : 1636281560097,
+        "duration" : 1576
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "ea248f0e2f42d077",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302067350,
+        "stop" : 1636302069289,
+        "duration" : 1939
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "960d287208e89fbc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293470969,
+        "stop" : 1636293482210,
+        "duration" : 11241
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "a12dad17126ca3a0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636304923224,
+        "stop" : 1636304923236,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "ad8e3baeb2cb366e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306050079,
+        "stop" : 1636306050086,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify footer social media link successfully opened",
+      "uid" : "e7d4f096174ea0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636307386385,
+        "stop" : 1636307389451,
+        "duration" : 3066
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "4a5e627dd3a07089",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636280705921,
+        "stop" : 1636280705938,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "5f488eeb8f7a3bbc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302425206,
+        "stop" : 1636302427263,
+        "duration" : 2057
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "db220ebb79bc55a9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636305527669,
+        "stop" : 1636305529022,
+        "duration" : 1353
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify car safety link successfully opened",
+      "uid" : "4cc7a3fd18e2e46e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636298978941,
+        "stop" : 1636298982159,
+        "duration" : 3218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model recharge link successfully opened",
+      "uid" : "67d3daf26b02cdb1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636297208914,
+        "stop" : 1636297212845,
+        "duration" : 3931
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "8c002e5440e80f10",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636284228214,
+        "stop" : 1636284232082,
+        "duration" : 3868
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "2dc07e86dbd69baa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636285210622,
+        "stop" : 1636285211834,
+        "duration" : 1212
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "deb9c1cf5256e717",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636269875791,
+        "stop" : 1636269881475,
+        "duration" : 5684
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "1723c553a214e636",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302279845,
+        "stop" : 1636302279853,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "5080a6557657a2a2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636291481329,
+        "stop" : 1636291492896,
+        "duration" : 11567
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "e2f7783983b47f85",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636281382760,
+        "stop" : 1636281382778,
+        "duration" : 18
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "a55c38e4d4e251c2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636279337052,
+        "stop" : 1636279338799,
+        "duration" : 1747
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "fd68c872d86a0c8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636305033185,
+        "stop" : 1636305033197,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "a56bd85a8ddacb30",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636289579933,
+        "stop" : 1636289583523,
+        "duration" : 3590
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "5c5f6dab1ef1b7f4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636292390281,
+        "stop" : 1636292393520,
+        "duration" : 3239
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "665d273ee141690f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636303696530,
+        "stop" : 1636303698215,
+        "duration" : 1685
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "52e19a4d1ffce135",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636280493510,
+        "stop" : 1636280494845,
+        "duration" : 1335
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "9d91dc0bdaa926e3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636292112087,
+        "stop" : 1636292115456,
+        "duration" : 3369
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "64cf88b0ac45d86a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636300230515,
+        "stop" : 1636300232349,
+        "duration" : 1834
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "3ec6e58b4e41cc07",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636304101172,
+        "stop" : 1636304101193,
+        "duration" : 21
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "82fa3696069c12bf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293483968,
+        "stop" : 1636293485139,
+        "duration" : 1171
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "8067fa44d98dde12",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636285981413,
+        "stop" : 1636285993714,
+        "duration" : 12301
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "5da05e22718a09ed",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636300931589,
+        "stop" : 1636300932836,
+        "duration" : 1247
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "b07f907a99f9d5a0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306047558,
+        "stop" : 1636306050078,
+        "duration" : 2520
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify car safety driver assistance link successfully opened",
+      "uid" : "5f40b8671d52c0c0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299041657,
+        "stop" : 1636299046333,
+        "duration" : 4676
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "60e741ac1c411cc5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636293241735,
+        "stop" : 1636293251824,
+        "duration" : 10089
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "5f9df8b970c76b68",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636279196632,
+        "stop" : 1636279198691,
+        "duration" : 2059
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "9127da7f09d5380b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636283191944,
+        "stop" : 1636283193602,
+        "duration" : 1658
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "f00982b7a48e9be2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302339899,
+        "stop" : 1636302339914,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "42f99276ad201164",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636277004807,
+        "stop" : 1636277005972,
+        "duration" : 1165
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "9d935d5e46775285",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299838199,
+        "stop" : 1636299839473,
+        "duration" : 1274
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "1e9edaf79621ac6a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636280752152,
+        "stop" : 1636280752168,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "f858ddc7f3a8514d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636291987415,
+        "stop" : 1636292000615,
+        "duration" : 13200
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "2797f8f95ff07360",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636282734175,
+        "stop" : 1636282734191,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "97ba04eb211595c7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636290007342,
+        "stop" : 1636290011240,
+        "duration" : 3898
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model mild hybrid cars link successfully opened",
+      "uid" : "19a530c77126fd4e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636308373678,
+        "stop" : 1636308376724,
+        "duration" : 3046
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "a4889fa079ecc0eb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302396943,
+        "stop" : 1636302396959,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "7ba1fe698599d05b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636281201509,
+        "stop" : 1636281201526,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "c3584f6879120603",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636282299092,
+        "stop" : 1636282300746,
+        "duration" : 1654
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "6135a1ebe799f210",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636292162476,
+        "stop" : 1636292165606,
+        "duration" : 3130
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "a2ec399fc9ea1e95",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636304937369,
+        "stop" : 1636304937382,
+        "duration" : 13
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "6b7f5116734ba065",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636275156728,
+        "stop" : 1636275157946,
+        "duration" : 1218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify footer legal link successfully opened",
+      "uid" : "79fdc275878ac4d5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636294647934,
+        "stop" : 1636294651308,
+        "duration" : 3374
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "18c769c842f81106",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636289539261,
+        "stop" : 1636289541461,
+        "duration" : 2200
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "671dc3f414e70f09",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1636286329180,
+        "stop" : 1636286344987,
+        "duration" : 15807
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify car safety Child Safety link successfully opened",
+      "uid" : "65726cf7fb3caf24",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299252724,
+        "stop" : 1636299258707,
+        "duration" : 5983
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "44af4d2c975dae33",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636305153609,
+        "stop" : 1636305153622,
+        "duration" : 13
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "97509b1f1416515c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636279277043,
+        "stop" : 1636279278857,
+        "duration" : 1814
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "dd22f5ddebfb07c1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302134088,
+        "stop" : 1636302134098,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model shop link successfully opened",
+      "uid" : "31da737873816250",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636308279781,
+        "stop" : 1636308283762,
+        "duration" : 3981
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "deceb57646c0cf49",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636274846939,
+        "stop" : 1636274848092,
+        "duration" : 1153
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify footer cookies link successfully opened",
+      "uid" : "a60907e072ff1281",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636294490019,
+        "stop" : 1636294493800,
+        "duration" : 3781
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "e66f2d0ded968a51",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636283250356,
+        "stop" : 1636283251673,
+        "duration" : 1317
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify privacy legal link successfully opened",
+      "uid" : "3d4e93813183bca2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636294806466,
+        "stop" : 1636294810014,
+        "duration" : 3548
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "381f33526fb6a2a4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293325787,
+        "stop" : 1636293337818,
+        "duration" : 12031
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "2bf8b6c1023de43d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636289296500,
+        "stop" : 1636289298372,
+        "duration" : 1872
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "a270bf89ef623d61",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302425183,
+        "stop" : 1636302425204,
+        "duration" : 21
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "2560bf23e0b2183b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636278134157,
+        "stop" : 1636278138212,
+        "duration" : 4055
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "e7581c086a25cfc7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636282414663,
+        "stop" : 1636282416164,
+        "duration" : 1501
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "8757c16a10211fcd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293125654,
+        "stop" : 1636293128529,
+        "duration" : 2875
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "7a9c5d5109f8523c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306158131,
+        "stop" : 1636306159012,
+        "duration" : 881
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "580c64355ea67880",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636281025631,
+        "stop" : 1636281027006,
+        "duration" : 1375
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify car safety Child Safety link successfully opened",
+      "uid" : "cac8cc1de6dcf03d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636309029348,
+        "stop" : 1636309035127,
+        "duration" : 5779
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify menu successfully opened",
+      "uid" : "2573b2ca1c77569b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306473615,
+        "stop" : 1636306478378,
+        "duration" : 4763
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "cb9c226ef0c7f5e8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636260038610,
+        "stop" : 1636260049970,
+        "duration" : 11360
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "55857c52a63c2e18",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636292212599,
+        "stop" : 1636292215869,
+        "duration" : 3270
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "f306543cbf1f7e7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636292122921,
+        "stop" : 1636292125873,
+        "duration" : 2952
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "c5b3ebbad7ec775f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299694142,
+        "stop" : 1636299695463,
+        "duration" : 1321
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "f6c3f8bb89e413ed",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636285139978,
+        "stop" : 1636285141483,
+        "duration" : 1505
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "cbb9d525a9872348",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636270903529,
+        "stop" : 1636270912056,
+        "duration" : 8527
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model recharge link successfully opened",
+      "uid" : "2430119c25199065",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636308071329,
+        "stop" : 1636308074640,
+        "duration" : 3311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify privacy legal link successfully opened",
+      "uid" : "81c2e0d1759448cf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636294828201,
+        "stop" : 1636294831673,
+        "duration" : 3472
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "b0e0d01d7274944f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302278923,
+        "stop" : 1636302278934,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "f5a13a75de7dcd07",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302234944,
+        "stop" : 1636302234955,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "28a49357d3d09bb6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636278175516,
+        "stop" : 1636278176833,
+        "duration" : 1317
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "13d9bdac32cd8ab3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302427264,
+        "stop" : 1636302427272,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "34531a385f021e5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636277612860,
+        "stop" : 1636277614068,
+        "duration" : 1208
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "909243079af21313",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636301819677,
+        "stop" : 1636301820796,
+        "duration" : 1119
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "5ffc905fced42b87",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636278021616,
+        "stop" : 1636278023080,
+        "duration" : 1464
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify footer social media link successfully opened",
+      "uid" : "484b927f0b38f81e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636307293698,
+        "stop" : 1636307296729,
+        "duration" : 3031
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify footer social media link successfully opened",
+      "uid" : "a5b0d67bd33013d1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636294964054,
+        "stop" : 1636294967568,
+        "duration" : 3514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "dba11bf96747b275",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636304517402,
+        "stop" : 1636304528956,
+        "duration" : 11554
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "c4df8d4351d06a43",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636300842938,
+        "stop" : 1636300844477,
+        "duration" : 1539
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify car safety driver assistance link successfully opened",
+      "uid" : "9c7909c732fb9d43",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636308765320,
+        "stop" : 1636308769522,
+        "duration" : 4202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify footer legal link successfully opened",
+      "uid" : "ffd453b3d62ca379",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636307851893,
+        "stop" : 1636307854968,
+        "duration" : 3075
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "2ddc6f04d803780",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299657359,
+        "stop" : 1636299658714,
+        "duration" : 1355
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "6094a8da91202ba",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306290134,
+        "stop" : 1636306291115,
+        "duration" : 981
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "e2f8671d424a964b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636282675625,
+        "stop" : 1636282676956,
+        "duration" : 1331
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "10ac94e91ba28004",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306287452,
+        "stop" : 1636306290134,
+        "duration" : 2682
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "\"before all\" hook for One Million Page",
+      "uid" : "b1e7a12373cf0b85",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636279000206,
+        "stop" : 1636279000245,
+        "duration" : 39
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify car safety Child Safety link successfully opened",
+      "uid" : "4c80d97fc75ff31f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636308924106,
+        "stop" : 1636308927463,
+        "duration" : 3357
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "5f1b866fad98a71c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636276962273,
+        "stop" : 1636276963678,
+        "duration" : 1405
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify decades of innovation link successfully opened",
+      "uid" : "f42e344121c7f531",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636308535398,
+        "stop" : 1636308538709,
+        "duration" : 3311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "aa652b1cf2191f17",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636307566065,
+        "stop" : 1636307567467,
+        "duration" : 1402
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "ce4ffc6a1f5feb32",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636289985074,
+        "stop" : 1636289988601,
+        "duration" : 3527
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "72c1fbabc2184a58",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636280626055,
+        "stop" : 1636280627670,
+        "duration" : 1615
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify car safety link successfully opened",
+      "uid" : "6d95935feea90fcd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636308613781,
+        "stop" : 1636308616843,
+        "duration" : 3062
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "ce1922fef3f9c456",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636279083950,
+        "stop" : 1636279086629,
+        "duration" : 2679
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "51509be0e3a0eca2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636300904675,
+        "stop" : 1636300906212,
+        "duration" : 1537
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "dddd32a049207da1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636284814736,
+        "stop" : 1636284816288,
+        "duration" : 1552
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "c153a9f35ecb9fc0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636285106026,
+        "stop" : 1636285107403,
+        "duration" : 1377
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "86bc9b92a7d63bb9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636284747659,
+        "stop" : 1636284749469,
+        "duration" : 1810
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "15462c07888675ab",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636279919417,
+        "stop" : 1636279921204,
+        "duration" : 1787
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "62007d824543fc1b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306155381,
+        "stop" : 1636306158130,
+        "duration" : 2749
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "1c25c963e4ab2a2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636284769248,
+        "stop" : 1636284770800,
+        "duration" : 1552
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "f84fde0a687d4686",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636281053537,
+        "stop" : 1636281053554,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "4337b714eb70551d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302337586,
+        "stop" : 1636302338986,
+        "duration" : 1400
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "75cfa9243ba32cc9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302234957,
+        "stop" : 1636302235871,
+        "duration" : 914
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model recharge link successfully opened",
+      "uid" : "b3a2fbc679b6550",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636308060270,
+        "stop" : 1636308063680,
+        "duration" : 3410
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "3e77847cb5914d6a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293237285,
+        "stop" : 1636293241734,
+        "duration" : 4449
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "b608df8a1f1d69d1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636301816561,
+        "stop" : 1636301818494,
+        "duration" : 1933
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model learn link successfully opened",
+      "uid" : "9c43e838f59e1dc5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636296516358,
+        "stop" : 1636296520404,
+        "duration" : 4046
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "529fcaf0836ffc4e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636286085831,
+        "stop" : 1636286091337,
+        "duration" : 5506
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "\"before all\" hook for One Million Page",
+      "uid" : "f621f5145a5d62ef",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636278948502,
+        "stop" : 1636278948538,
+        "duration" : 36
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "f15944b4382fdde8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293413652,
+        "stop" : 1636293425003,
+        "duration" : 11351
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model learn link successfully opened",
+      "uid" : "d4fb02d0b3e3d9e1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636295694510,
+        "stop" : 1636295702460,
+        "duration" : 7950
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "f48aba986b191082",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636292042486,
+        "stop" : 1636292045810,
+        "duration" : 3324
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "203fbac208f01280",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636300974594,
+        "stop" : 1636300975924,
+        "duration" : 1330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "a688540c660c293e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636300882667,
+        "stop" : 1636300884257,
+        "duration" : 1590
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "79ca390535e2d4e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636304389721,
+        "stop" : 1636304389731,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "edce4f171a2460c8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636301815203,
+        "stop" : 1636301816551,
+        "duration" : 1348
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "d0f5c18e234e2de8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636281794019,
+        "stop" : 1636281795633,
+        "duration" : 1614
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "70f9f4e4d8fdc998",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636282086960,
+        "stop" : 1636282088607,
+        "duration" : 1647
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "690fb1f3bb52211b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636271998585,
+        "stop" : 1636272013828,
+        "duration" : 15243
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "43e3c3bd2cf282ef",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636283618996,
+        "stop" : 1636283620348,
+        "duration" : 1352
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "d93932c98f6fa85d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636278138212,
+        "stop" : 1636278138219,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "94451ec32f56bfa2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636280852308,
+        "stop" : 1636280852324,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "d0381f4b3ce17dfd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636304389732,
+        "stop" : 1636304391911,
+        "duration" : 2179
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "8e171119a81432cc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636291967633,
+        "stop" : 1636291970418,
+        "duration" : 2785
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "db496cb2e58a4fe6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636306292145,
+        "stop" : 1636306293237,
+        "duration" : 1092
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "ae5ab32c148ef975",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293468155,
+        "stop" : 1636293470968,
+        "duration" : 2813
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "e91bd7815577c658",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636293234327,
+        "stop" : 1636293237285,
+        "duration" : 2958
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "7c024c4fa3d697f7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636307616664,
+        "stop" : 1636307623131,
+        "duration" : 6467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play linda and molly video",
+      "uid" : "4a18367a7151fa7f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636301818495,
+        "stop" : 1636301819677,
+        "duration" : 1182
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "d7ae363001ca9ee0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636278823930,
+        "stop" : 1636278825403,
+        "duration" : 1473
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model learn link successfully opened",
+      "uid" : "60316f65010b0081",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636295574452,
+        "stop" : 1636295582177,
+        "duration" : 7725
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "de90fb54242e1981",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636283742972,
+        "stop" : 1636283744435,
+        "duration" : 1463
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "26a7af7f462781f1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636305946907,
+        "stop" : 1636305951457,
+        "duration" : 4550
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model learn link successfully opened",
+      "uid" : "29698541d02c68c2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636295983495,
+        "stop" : 1636295999767,
+        "duration" : 16272
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "d0c26f5815d2f2a4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299584377,
+        "stop" : 1636299584389,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify explore model learn link successfully opened",
+      "uid" : "a373c341deeb89c7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636296378015,
+        "stop" : 1636296385060,
+        "duration" : 7045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify footer social media link successfully opened",
+      "uid" : "1fbe98e3414d4bdb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636295531739,
+        "stop" : 1636295535174,
+        "duration" : 3435
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "4fd36fb27318bcf6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636292142882,
+        "stop" : 1636292146006,
+        "duration" : 3124
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "2b72726eadf42a36",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636280927553,
+        "stop" : 1636280927570,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play summer video",
+      "uid" : "1c68019268ee8c71",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636291634413,
+        "stop" : 1636291646104,
+        "duration" : 11691
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play alex video",
+      "uid" : "a6d8185899f1c1cf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302007951,
+        "stop" : 1636302007963,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play amy video",
+      "uid" : "d7cbf4425628ff0a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636302133178,
+        "stop" : 1636302133191,
+        "duration" : 13
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify volvo logo link successfully opened",
+      "uid" : "7c3301110a19aad5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636300170151,
+        "stop" : 1636300171737,
+        "duration" : 1586
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should play intro video",
+      "uid" : "dedf6f1b9aaa5a1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636283147170,
+        "stop" : 1636283148708,
+        "duration" : 1538
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "6821bff50c052890",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636277287571,
+        "stop" : 1636277288916,
+        "duration" : 1345
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify correct tab name",
+      "uid" : "a013b63d088d6e52",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636274969763,
+        "stop" : 1636274970952,
+        "duration" : 1189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    }, {
+      "name" : "should verify our cars sub menu successfully opened",
+      "uid" : "e8c998553475c623",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1636305503497,
+        "stop" : 1636305504858,
+        "duration" : 1361
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.69" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  } ]
+}

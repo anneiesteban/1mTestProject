@@ -1,0 +1,134 @@
+{
+  "uid" : "99661fc31725865",
+  "name" : "should verify our cars sub menu successfully opened",
+  "fullName" : "Our Cars One Million Page.should verify our cars sub menu successfully opened",
+  "historyId" : "43e072dd9fb7eb42505c5b50bde8f7e1",
+  "time" : {
+    "start" : 1636305430956,
+    "stop" : 1636305433163,
+    "duration" : 2207
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "clickElement is not defined",
+  "statusTrace" : "ReferenceError: clickElement is not defined\n                    at OneMillionPage.ourCarsTest (C:\\Users\\Marianne\\volvo-1m\\test\\pageobjects\\one.million.page.js:35:9)\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\our.cars.spec.js:9:24)\n                    at Context.executeAsync (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "clickElement is not defined",
+    "statusTrace" : "ReferenceError: clickElement is not defined\n                    at OneMillionPage.ourCarsTest (C:\\Users\\Marianne\\volvo-1m\\test\\pageobjects\\one.million.page.js:35:9)\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\our.cars.spec.js:9:24)\n                    at Context.executeAsync (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1636305430958,
+        "stop" : 1636305433163,
+        "duration" : 2205
+      },
+      "status" : "broken",
+      "statusMessage" : "ReferenceError: clickElement is not defined\n                    at OneMillionPage.ourCarsTest (C:\\Users\\Marianne\\volvo-1m\\test\\pageobjects\\one.million.page.js:35:9)\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\our.cars.spec.js:9:24)\n                    at Context.executeAsync (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1636305430963,
+          "stop" : 1636305433162,
+          "duration" : 2199
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636305430966,
+            "stop" : 1636305432692,
+            "duration" : 1726
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "26b9412b05a0f6ef",
+            "name" : "Request",
+            "source" : "26b9412b05a0f6ef.json",
+            "type" : "application/json",
+            "size" : 59
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "bfa0ae39f68ce7cf",
+          "name" : "Screenshot",
+          "source" : "bfa0ae39f68ce7cf.png",
+          "type" : "image/png",
+          "size" : 82400
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "d989cb55c91d91ae",
+        "name" : "Request",
+        "source" : "d989cb55c91d91ae.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 3,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify our cars sub menu successfully opened"
+  }, {
+    "name" : "package",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "99661fc31725865.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

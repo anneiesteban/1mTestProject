@@ -1,0 +1,357 @@
+{
+  "uid" : "b1c31e1e6b405707",
+  "name" : "should verify explore model mild hybrid cars link successfully opened",
+  "fullName" : "Explore Model Mild Hybrid Cars One Million Page.should verify explore model mild hybrid cars link successfully opened",
+  "historyId" : "8458a21489bbda22c751495a85e1cd2e",
+  "time" : {
+    "start" : 1636297368529,
+    "stop" : 1636297372992,
+    "duration" : 4463
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1636297368531,
+        "stop" : 0,
+        "duration" : -1636297368531
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636297368537,
+          "stop" : 1636297370081,
+          "duration" : 1544
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636297368540,
+            "stop" : 1636297370064,
+            "duration" : 1524
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "27f5a694da79a706",
+            "name" : "Request",
+            "source" : "27f5a694da79a706.json",
+            "type" : "application/json",
+            "size" : 128
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "53cb4dc58f2f9f17",
+          "name" : "Request",
+          "source" : "53cb4dc58f2f9f17.json",
+          "type" : "application/json",
+          "size" : 59
+        }, {
+          "uid" : "7e8bf1cd28a5caf9",
+          "name" : "Response",
+          "source" : "7e8bf1cd28a5caf9.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 3,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636297370092,
+          "stop" : 1636297370111,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2d74fe18d8f6f4b8",
+          "name" : "Request",
+          "source" : "2d74fe18d8f6f4b8.json",
+          "type" : "application/json",
+          "size" : 8337
+        }, {
+          "uid" : "2417f506967addac",
+          "name" : "Response",
+          "source" : "2417f506967addac.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636297370115,
+          "stop" : 1636297370130,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7f93cf6f08f899fe",
+          "name" : "Request",
+          "source" : "7f93cf6f08f899fe.json",
+          "type" : "application/json",
+          "size" : 8337
+        }, {
+          "uid" : "3c26d715d54e8912",
+          "name" : "Response",
+          "source" : "3c26d715d54e8912.json",
+          "type" : "application/json",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636297370130,
+          "stop" : 1636297370138,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "59ec479818ce9dad",
+          "name" : "Request",
+          "source" : "59ec479818ce9dad.json",
+          "type" : "application/json",
+          "size" : 59
+        }, {
+          "uid" : "d9ac8e8fbccd046f",
+          "name" : "Response",
+          "source" : "d9ac8e8fbccd046f.json",
+          "type" : "application/json",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/f4caf7bc-d9d6-4b7c-95a8-1e35ef7fba8a/click",
+        "time" : {
+          "start" : 1636297370139,
+          "stop" : 1636297370150,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "44d9da0f7da32ca8",
+          "name" : "Response",
+          "source" : "44d9da0f7da32ca8.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/bdfc449b-3f53-4fb7-a710-f22b861d8e19/click",
+        "time" : {
+          "start" : 1636297370153,
+          "stop" : 1636297370553,
+          "duration" : 400
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636297370375,
+            "stop" : 1636297370536,
+            "duration" : 161
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "64700e8d7fdd0b66",
+            "name" : "Request",
+            "source" : "64700e8d7fdd0b66.json",
+            "type" : "application/json",
+            "size" : 128
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "5d1bd78eb41b0b5c",
+          "name" : "Response",
+          "source" : "5d1bd78eb41b0b5c.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/f4caf7bc-d9d6-4b7c-95a8-1e35ef7fba8a/click",
+        "time" : {
+          "start" : 1636297370557,
+          "stop" : 0,
+          "duration" : -1636297370557
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636297370570,
+            "stop" : 1636297370585,
+            "duration" : 15
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "e880e09dfbd4b5c5",
+            "name" : "Request",
+            "source" : "e880e09dfbd4b5c5.json",
+            "type" : "application/json",
+            "size" : 128
+          }, {
+            "uid" : "19d827502e8c9120",
+            "name" : "Response",
+            "source" : "19d827502e8c9120.json",
+            "type" : "application/json",
+            "size" : 83
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/element/a39dd9db-45d7-4531-9986-1b1601e231f9/click",
+          "time" : {
+            "start" : 1636297370588,
+            "stop" : 1636297372980,
+            "duration" : 2392
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1636297372982,
+            "stop" : 1636297372990,
+            "duration" : 8
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "2924c6782bfdd71f",
+            "name" : "Response",
+            "source" : "2924c6782bfdd71f.json",
+            "type" : "application/json",
+            "size" : 57
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 3,
+        "stepsCount" : 3,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "309518db4a90d594",
+        "name" : "Request",
+        "source" : "309518db4a90d594.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 16,
+      "stepsCount" : 12,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 16,
+    "stepsCount" : 13,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Explore Model Mild Hybrid Cars One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Explore Model Mild Hybrid Cars One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify explore model mild hybrid cars link successfully opened"
+  }, {
+    "name" : "package",
+    "value" : "Explore Model Mild Hybrid Cars One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1c31e1e6b405707.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

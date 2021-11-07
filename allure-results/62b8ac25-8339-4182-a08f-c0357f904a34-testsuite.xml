@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636286085831' stop='1636286091337'>
+    <name>Volvo Logo One Million Page</name>
+    <title>Volvo Logo One Million Page</title>
+    <test-cases>
+        <test-case start='1636286085831' status='passed' stop='1636286091337'>
+            <name>should verify volvo logo link successfully opened</name>
+            <title>should verify volvo logo link successfully opened</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636286085833' status='passed' stop='1636286091336'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='887e16f1-0acc-4237-98cb-9419f0307497-attachment.json' type='application/json' size='74'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636286085839' status='passed' stop='1636286087434'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='88c9dbc9-2fc1-4ff6-8202-fe4e4500d3f3-attachment.json' type='application/json' size='59'/>
+                                <attachment title='Response' source='c988bd7b-d709-4ca9-8301-5c98959c1c40-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps>
+                                <step start='1636286085842' status='passed' stop='1636286087420'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='e43e858b-39f0-4915-823a-9c6326003ea0-attachment.json' type='application/json' size='131'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1636286087440' status='passed' stop='1636286087461'>
+                            <name>POST /session/:sessionId/execute/sync</name>
+                            <title>POST /session/:sessionId/execute/sync</title>
+                            <attachments>
+                                <attachment title='Request' source='6261b5cc-f06b-4063-93fb-3265ac044853-attachment.json' type='application/json' size='8337'/>
+                                <attachment title='Response' source='393774f5-199c-4145-9414-730436cad57d-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1636286087464' status='passed' stop='1636286087480'>
+                            <name>POST /session/:sessionId/execute/sync</name>
+                            <title>POST /session/:sessionId/execute/sync</title>
+                            <attachments>
+                                <attachment title='Request' source='af57d1a6-59f0-43ca-bf3b-a75d84a8eb19-attachment.json' type='application/json' size='8337'/>
+                                <attachment title='Response' source='8044869b-a2b4-482a-92ed-5e6bae24f969-attachment.json' type='application/json' size='4'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1636286087480' status='passed' stop='1636286087491'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='91b3c67d-0921-4a74-8e2a-e21ca99db86d-attachment.json' type='application/json' size='59'/>
+                                <attachment title='Response' source='8023b401-824a-4c92-92f8-059203bec801-attachment.json' type='application/json' size='4'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1636286087492' status='passed' stop='1636286087497'>
+                            <name>POST /session/:sessionId/element/14d99b9d-8da8-43d3-b352-9a6da34d02e0/click</name>
+                            <title>POST /session/:sessionId/element/14d99b9d-8da8-43d3-b352-9a6da34d02e0/click</title>
+                            <attachments>
+                                <attachment title='Response' source='1fdb7cdd-63c2-4e2c-aed6-2fcdcf615959-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1636286087499' status='passed' stop='1636286088611'>
+                            <name>POST /session/:sessionId/element/60c18e82-72d1-4566-a192-2b4427834def/click</name>
+                            <title>POST /session/:sessionId/element/60c18e82-72d1-4566-a192-2b4427834def/click</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

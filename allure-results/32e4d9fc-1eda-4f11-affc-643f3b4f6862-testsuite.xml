@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636304412448' stop='1636304413799'>
+    <name>Our Cars One Million Page</name>
+    <title>Our Cars One Million Page</title>
+    <test-cases>
+        <test-case start='1636304412449' status='broken' stop='1636304413780'>
+            <name>should verify our cars sub menu successfully opened</name>
+            <title>should verify our cars sub menu successfully opened</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636304412451' status='broken' stop='1636304413780'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='58669653-33e5-475b-9a48-36f06b4879af-attachment.json' type='application/json' size='74'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636304412456' status='passed' stop='1636304413779'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='869952ab-9028-4ccd-9f52-2783b42a2c2b-attachment.json' type='application/json' size='59'/>
+                                <attachment title='Screenshot' source='62edf89e-2c41-4064-a2b7-c728ce382b02-attachment.png' type='image/png' size='96765'/>
+                            </attachments>
+                            <steps>
+                                <step start='1636304412459' status='passed' stop='1636304413643'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='7f2a03ad-2da9-464c-9304-bb3096aeedf9-attachment.json' type='application/json' size='67'/>
+                                        <attachment title='Response' source='5f6c77c8-eef7-4ba3-9931-417f794679da-attachment.json' type='application/json' size='83'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1636304412464' status='passed' stop='1636304413629'>
+                                            <name>GET /session/:sessionId/screenshot</name>
+                                            <title>GET /session/:sessionId/screenshot</title>
+                                            <attachments/>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                                <step start='1636304413651' status='passed' stop='1636304413671'>
+                                    <name>POST /session/:sessionId/execute/sync</name>
+                                    <title>POST /session/:sessionId/execute/sync</title>
+                                    <attachments>
+                                        <attachment title='Request' source='b475c9a3-59aa-46e0-8a11-a67023ee9596-attachment.json' type='application/json' size='8337'/>
+                                        <attachment title='Response' source='da2923cc-28d9-467c-8cfd-72f751700307-attachment.json' type='application/json' size='83'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1636304413785' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d637fcf9-5720-41b6-8e23-6ba1eb454111-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='41d1aaab-8f5a-4cc6-8243-dcd888953b5d-attachment.json' type='application/json' size='4'/>
+            </attachments>
+            <failure>
+                <message>s is not defined</message>
+                <stack-trace>ReferenceError: s is not defined
+                    at Context.&lt;anonymous> (C:\Users\Marianne\volvo-1m\test\specs\our.cars.spec.js:12:60)
+                    at Context.executeAsync (C:\Users\Marianne\volvo-1m\node_modules\@wdio\utils\build\shim.js:325:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\Marianne\volvo-1m\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

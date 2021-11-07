@@ -1,0 +1,526 @@
+{
+  "uid" : "7c024c4fa3d697f7",
+  "name" : "should verify volvo logo link successfully opened",
+  "fullName" : "Volvo Logo One Million Page.should verify volvo logo link successfully opened",
+  "historyId" : "13db267487dc285f5af530738df04d2e",
+  "time" : {
+    "start" : 1636307616664,
+    "stop" : 1636307623131,
+    "duration" : 6467
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1636307616665,
+        "stop" : 0,
+        "duration" : -1636307616665
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636307616671,
+          "stop" : 1636307617888,
+          "duration" : 1217
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636307616676,
+            "stop" : 1636307617872,
+            "duration" : 1196
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "c84f922f32c70014",
+            "name" : "Request",
+            "source" : "c84f922f32c70014.json",
+            "type" : "application/json",
+            "size" : 59
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "982a4aea37433a82",
+          "name" : "Request",
+          "source" : "982a4aea37433a82.json",
+          "type" : "application/json",
+          "size" : 131
+        }, {
+          "uid" : "216a91b199705b8e",
+          "name" : "Response",
+          "source" : "216a91b199705b8e.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 3,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/a1ea0c90-a26f-42a2-8b7a-dfd6f1f13a4c/click",
+        "time" : {
+          "start" : 1636307617894,
+          "stop" : 1636307617903,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "554f5bbac5286add",
+          "name" : "Response",
+          "source" : "554f5bbac5286add.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636307617906,
+          "stop" : 1636307618949,
+          "duration" : 1043
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "facbc9e0842a918d",
+          "name" : "Request",
+          "source" : "facbc9e0842a918d.json",
+          "type" : "application/json",
+          "size" : 8337
+        }, {
+          "uid" : "339f3a068699d62b",
+          "name" : "Response",
+          "source" : "339f3a068699d62b.json",
+          "type" : "application/json",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636307618950,
+          "stop" : 1636307619991,
+          "duration" : 1041
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "716d72b4c183e3b9",
+          "name" : "Request",
+          "source" : "716d72b4c183e3b9.json",
+          "type" : "application/json",
+          "size" : 59
+        }, {
+          "uid" : "ccadb809afda08e6",
+          "name" : "Response",
+          "source" : "ccadb809afda08e6.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/a021b94c-3082-4277-b268-ac9ecdda9b0d/click",
+        "time" : {
+          "start" : 1636307619993,
+          "stop" : 1636307621137,
+          "duration" : 1144
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636307621138,
+          "stop" : 1636307623108,
+          "duration" : 1970
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f3a2e9e7662fdea4",
+          "name" : "Request",
+          "source" : "f3a2e9e7662fdea4.json",
+          "type" : "application/json",
+          "size" : 59
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "GET /session/:sessionId/url",
+        "time" : {
+          "start" : 1636307623109,
+          "stop" : 1636307623115,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "130b7e2c5b2791a8",
+          "name" : "Response",
+          "source" : "130b7e2c5b2791a8.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636307623117,
+          "stop" : 1636307623129,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e8f4014462983ab6",
+          "name" : "Request",
+          "source" : "e8f4014462983ab6.json",
+          "type" : "application/json",
+          "size" : 8337
+        }, {
+          "uid" : "cc4b87ab4f6a2ad6",
+          "name" : "Response",
+          "source" : "cc4b87ab4f6a2ad6.json",
+          "type" : "application/json",
+          "size" : 32
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "7e59d0941ced3a61",
+        "name" : "Request",
+        "source" : "7e59d0941ced3a61.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 13,
+      "stepsCount" : 9,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 13,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Logo One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Logo One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify volvo logo link successfully opened"
+  }, {
+    "name" : "package",
+    "value" : "Volvo Logo One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "aa652b1cf2191f17",
+      "status" : "broken",
+      "statusDetails" : "oneMillionPage.volvoLogo.click is not a function",
+      "time" : {
+        "start" : 1636307566065,
+        "stop" : 1636307567467,
+        "duration" : 1402
+      }
+    }, {
+      "uid" : "f12647a689e9b3ae",
+      "status" : "broken",
+      "statusDetails" : "oneMillionPage.volvoLogo.click is not a function",
+      "time" : {
+        "start" : 1636307538524,
+        "stop" : 1636307540134,
+        "duration" : 1610
+      }
+    }, {
+      "uid" : "203fbac208f01280",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636300974594,
+        "stop" : 1636300975924,
+        "duration" : 1330
+      }
+    }, {
+      "uid" : "5da05e22718a09ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636300931589,
+        "stop" : 1636300932836,
+        "duration" : 1247
+      }
+    }, {
+      "uid" : "51509be0e3a0eca2",
+      "status" : "broken",
+      "statusDetails" : "this.volvoLogo.click is not a function",
+      "time" : {
+        "start" : 1636300904675,
+        "stop" : 1636300906212,
+        "duration" : 1537
+      }
+    }, {
+      "uid" : "a688540c660c293e",
+      "status" : "broken",
+      "statusDetails" : "this.volvoLogo.waitForDisplayed is not a function",
+      "time" : {
+        "start" : 1636300882667,
+        "stop" : 1636300884257,
+        "duration" : 1590
+      }
+    }, {
+      "uid" : "c4df8d4351d06a43",
+      "status" : "broken",
+      "statusDetails" : "this.volvoLogo.waitForDisplayed is not a function",
+      "time" : {
+        "start" : 1636300842938,
+        "stop" : 1636300844477,
+        "duration" : 1539
+      }
+    }, {
+      "uid" : "658ebdaf234c926",
+      "status" : "broken",
+      "statusDetails" : "this.volvoLogo.waitForDisplayed is not a function",
+      "time" : {
+        "start" : 1636300815838,
+        "stop" : 1636300817759,
+        "duration" : 1921
+      }
+    }, {
+      "uid" : "64cf88b0ac45d86a",
+      "status" : "broken",
+      "statusDetails" : "this.volvoLogo.waitForDisplayed is not a function",
+      "time" : {
+        "start" : 1636300230515,
+        "stop" : 1636300232349,
+        "duration" : 1834
+      }
+    }, {
+      "uid" : "a43bc25bce3cdf0d",
+      "status" : "broken",
+      "statusDetails" : "this.volvoLogo.click is not a function",
+      "time" : {
+        "start" : 1636300194854,
+        "stop" : 1636300196508,
+        "duration" : 1654
+      }
+    }, {
+      "uid" : "7c3301110a19aad5",
+      "status" : "broken",
+      "statusDetails" : "this.volvoLogo.waitForDisplayed is not a function",
+      "time" : {
+        "start" : 1636300170151,
+        "stop" : 1636300171737,
+        "duration" : 1586
+      }
+    }, {
+      "uid" : "2d7681bed1b361a5",
+      "status" : "broken",
+      "statusDetails" : "this.volvoLogo.waitForDisplayed is not a function",
+      "time" : {
+        "start" : 1636300126135,
+        "stop" : 1636300127696,
+        "duration" : 1561
+      }
+    }, {
+      "uid" : "e5731621bcb344f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636300024529,
+        "stop" : 1636300025972,
+        "duration" : 1443
+      }
+    }, {
+      "uid" : "e50b84b78b9b0a58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299876724,
+        "stop" : 1636299878142,
+        "duration" : 1418
+      }
+    }, {
+      "uid" : "9d935d5e46775285",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299838199,
+        "stop" : 1636299839473,
+        "duration" : 1274
+      }
+    }, {
+      "uid" : "cdcaee3bb0ad519c",
+      "status" : "broken",
+      "statusDetails" : "this.volvoLogo.waitForDisplayed is not a function",
+      "time" : {
+        "start" : 1636299723405,
+        "stop" : 1636299724796,
+        "duration" : 1391
+      }
+    }, {
+      "uid" : "c5b3ebbad7ec775f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299694142,
+        "stop" : 1636299695463,
+        "duration" : 1321
+      }
+    }, {
+      "uid" : "d1e9299df4fac9f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299677476,
+        "stop" : 1636299678829,
+        "duration" : 1353
+      }
+    }, {
+      "uid" : "2ddc6f04d803780",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299657359,
+        "stop" : 1636299658714,
+        "duration" : 1355
+      }
+    }, {
+      "uid" : "d0c26f5815d2f2a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299584377,
+        "stop" : 1636299584389,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "aaa79f2b3fb3b632",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299548134,
+        "stop" : 1636299552915,
+        "duration" : 4781
+      }
+    }, {
+      "uid" : "4ae0e137ca43010a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636299478139,
+        "stop" : 1636299478151,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "8ba0181e26a4d99f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636286369112,
+        "stop" : 1636286377826,
+        "duration" : 8714
+      }
+    }, {
+      "uid" : "671dc3f414e70f09",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url containing\n                \n                Expected: \"A million more | Volvo Cars - International\"\n                Received: \"https://www.volvocars.com/intl\"",
+      "time" : {
+        "start" : 1636286329180,
+        "stop" : 1636286344987,
+        "duration" : 15807
+      }
+    }, {
+      "uid" : "f00a6d94ba12f252",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url containing\n                \n                Expected: \"A million more | Volvo Cars - International\"\n                Received: \"https://www.volvocars.com/intl\"",
+      "time" : {
+        "start" : 1636286289420,
+        "stop" : 1636286307638,
+        "duration" : 18218
+      }
+    }, {
+      "uid" : "529fcaf0836ffc4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636286085831,
+        "stop" : 1636286091337,
+        "duration" : 5506
+      }
+    }, {
+      "uid" : "8067fa44d98dde12",
+      "status" : "broken",
+      "statusDetails" : "element (\"//*[@data-autoid=\"nav:topNavCarMenuContainer\"]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1636285981413,
+        "stop" : 1636285993714,
+        "duration" : 12301
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c024c4fa3d697f7.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

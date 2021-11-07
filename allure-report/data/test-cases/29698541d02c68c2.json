@@ -1,0 +1,417 @@
+{
+  "uid" : "29698541d02c68c2",
+  "name" : "should verify explore model learn link successfully opened",
+  "fullName" : "Explore Model Learn One Million Page.should verify explore model learn link successfully opened",
+  "historyId" : "bdc621a01d01737733fb5acbe6e6a4e9",
+  "time" : {
+    "start" : 1636295983495,
+    "stop" : 1636295999767,
+    "duration" : 16272
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot use 'in' operator to search for 'selector' in true",
+  "statusTrace" : "TypeError: Cannot use 'in' operator to search for 'selector' in true\n                    at Object.getSelectors (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\util\\formatMessage.js:28:33)\n                    at Object.enhanceError (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\util\\formatMessage.js:43:63)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\element\\toHaveElementProperty.js:40:31\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at runNextTicks (node:internal/process/task_queues:65:3)\n                    at processTimers (node:internal/timers:497:9)\n                    at async Browser.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\explore.model.learn.spec.js:15:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot use 'in' operator to search for 'selector' in true",
+    "statusTrace" : "TypeError: Cannot use 'in' operator to search for 'selector' in true\n                    at Object.getSelectors (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\util\\formatMessage.js:28:33)\n                    at Object.enhanceError (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\util\\formatMessage.js:43:63)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\element\\toHaveElementProperty.js:40:31\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at runNextTicks (node:internal/process/task_queues:65:3)\n                    at processTimers (node:internal/timers:497:9)\n                    at async Browser.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\explore.model.learn.spec.js:15:9)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1636295983497,
+        "stop" : 1636295999767,
+        "duration" : 16270
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: Cannot use 'in' operator to search for 'selector' in true\n                    at Object.getSelectors (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\util\\formatMessage.js:28:33)\n                    at Object.enhanceError (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\util\\formatMessage.js:43:63)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\element\\toHaveElementProperty.js:40:31\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at runNextTicks (node:internal/process/task_queues:65:3)\n                    at processTimers (node:internal/timers:497:9)\n                    at async Browser.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\explore.model.learn.spec.js:15:9)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636295983503,
+          "stop" : 1636295984782,
+          "duration" : 1279
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636295983507,
+            "stop" : 1636295984769,
+            "duration" : 1262
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "ecd8e5edf1f96daa",
+            "name" : "Request",
+            "source" : "ecd8e5edf1f96daa.json",
+            "type" : "application/json",
+            "size" : 136
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "78cb05a748043ed0",
+          "name" : "Request",
+          "source" : "78cb05a748043ed0.json",
+          "type" : "application/json",
+          "size" : 59
+        }, {
+          "uid" : "1d84bd9df2b6f78c",
+          "name" : "Response",
+          "source" : "1d84bd9df2b6f78c.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 3,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636295984787,
+          "stop" : 1636295984808,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4b72817913a20dd4",
+          "name" : "Request",
+          "source" : "4b72817913a20dd4.json",
+          "type" : "application/json",
+          "size" : 8337
+        }, {
+          "uid" : "7b5021b60a7e40dd",
+          "name" : "Response",
+          "source" : "7b5021b60a7e40dd.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636295984811,
+          "stop" : 1636295984826,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "309636f51349aec3",
+          "name" : "Request",
+          "source" : "309636f51349aec3.json",
+          "type" : "application/json",
+          "size" : 8337
+        }, {
+          "uid" : "2586d2bb1c3aa367",
+          "name" : "Response",
+          "source" : "2586d2bb1c3aa367.json",
+          "type" : "application/json",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636295984827,
+          "stop" : 1636295984834,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9012ca4c7d2d9bb1",
+          "name" : "Request",
+          "source" : "9012ca4c7d2d9bb1.json",
+          "type" : "application/json",
+          "size" : 59
+        }, {
+          "uid" : "9e5f27f8f07d19e6",
+          "name" : "Response",
+          "source" : "9e5f27f8f07d19e6.json",
+          "type" : "application/json",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/6343537c-8c35-4451-a101-fde01b6d204e/click",
+        "time" : {
+          "start" : 1636295984835,
+          "stop" : 1636295984844,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "37fb5a670bf63820",
+          "name" : "Response",
+          "source" : "37fb5a670bf63820.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/70ad142d-6a3c-429e-98a9-50e1e06d043a/click",
+        "time" : {
+          "start" : 1636295984846,
+          "stop" : 1636295985141,
+          "duration" : 295
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636295985019,
+            "stop" : 1636295985114,
+            "duration" : 95
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "fdc699ceab384aef",
+            "name" : "Request",
+            "source" : "fdc699ceab384aef.json",
+            "type" : "application/json",
+            "size" : 136
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "2550bf3f737f4ba4",
+          "name" : "Response",
+          "source" : "2550bf3f737f4ba4.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/6343537c-8c35-4451-a101-fde01b6d204e/click",
+        "time" : {
+          "start" : 1636295985143,
+          "stop" : 1636295999767,
+          "duration" : 14624
+        },
+        "status" : "broken",
+        "statusMessage" : "TypeError: Cannot use 'in' operator to search for 'selector' in true\n                    at Object.getSelectors (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\util\\formatMessage.js:28:33)\n                    at Object.enhanceError (C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\util\\formatMessage.js:43:63)\n                    at C:\\Users\\Marianne\\volvo-1m\\node_modules\\expect-webdriverio\\lib\\matchers\\element\\toHaveElementProperty.js:40:31\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at runNextTicks (node:internal/process/task_queues:65:3)\n                    at processTimers (node:internal/timers:497:9)\n                    at async Browser.wrapCommandFn (C:\\Users\\Marianne\\volvo-1m\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\explore.model.learn.spec.js:15:9)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636295985150,
+            "stop" : 1636295985165,
+            "duration" : 15
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "6d372caa33f95570",
+            "name" : "Request",
+            "source" : "6d372caa33f95570.json",
+            "type" : "application/json",
+            "size" : 136
+          }, {
+            "uid" : "2ab4b60a516cee5c",
+            "name" : "Response",
+            "source" : "2ab4b60a516cee5c.json",
+            "type" : "application/json",
+            "size" : 83
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/element/b34ce3ce-c448-4cd6-a254-4f711ecdf340/click",
+          "time" : {
+            "start" : 1636295985167,
+            "stop" : 1636295989557,
+            "duration" : 4390
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636295989557,
+            "stop" : 1636295989577,
+            "duration" : 20
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "4d5fd09e35664cf6",
+            "name" : "Request",
+            "source" : "4d5fd09e35664cf6.json",
+            "type" : "application/json",
+            "size" : 173
+          }, {
+            "uid" : "8e721b87d2922e34",
+            "name" : "Response",
+            "source" : "8e721b87d2922e34.json",
+            "type" : "application/json",
+            "size" : 83
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/execute/sync",
+          "time" : {
+            "start" : 1636295989580,
+            "stop" : 1636295989597,
+            "duration" : 17
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "d6b7e6cd84e7e97",
+            "name" : "Request",
+            "source" : "d6b7e6cd84e7e97.json",
+            "type" : "application/json",
+            "size" : 8337
+          }, {
+            "uid" : "f9746a31ebaa46d6",
+            "name" : "Response",
+            "source" : "f9746a31ebaa46d6.json",
+            "type" : "application/json",
+            "size" : 4
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/screenshot",
+          "time" : {
+            "start" : 1636295999609,
+            "stop" : 1636295999765,
+            "duration" : 156
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "f587fd8d05453ae4",
+            "name" : "Screenshot",
+            "source" : "f587fd8d05453ae4.png",
+            "type" : "image/png",
+            "size" : 205400
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 7,
+        "stepsCount" : 5,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "6f4b1ffa5d0a77aa",
+        "name" : "Request",
+        "source" : "6f4b1ffa5d0a77aa.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 20,
+      "stepsCount" : 14,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 20,
+    "stepsCount" : 15,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Explore Model Learn One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Explore Model Learn One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify explore model learn link successfully opened"
+  }, {
+    "name" : "package",
+    "value" : "Explore Model Learn One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "29698541d02c68c2.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

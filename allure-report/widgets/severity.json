@@ -1,0 +1,311 @@
+[ {
+  "uid" : "affc6f4e80638b5c",
+  "name" : "should verify menu successfully opened",
+  "time" : {
+    "start" : 1636306506905,
+    "stop" : 1636306511545,
+    "duration" : 4640
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35af2fa71e0d3848",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1636273526943,
+    "stop" : 1636273528712,
+    "duration" : 1769
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2dc07e86dbd69baa",
+  "name" : "should verify correct tab name",
+  "time" : {
+    "start" : 1636285210622,
+    "stop" : 1636285211834,
+    "duration" : 1212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f488eeb8f7a3bbc",
+  "name" : "should play linda and molly video",
+  "time" : {
+    "start" : 1636302425206,
+    "stop" : 1636302427263,
+    "duration" : 2057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d93932c98f6fa85d",
+  "name" : "should play intro video",
+  "time" : {
+    "start" : 1636278138212,
+    "stop" : 1636278138219,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9d90a66595311e8",
+  "name" : "should verify explore model shop link successfully opened",
+  "time" : {
+    "start" : 1636308297139,
+    "stop" : 1636308300860,
+    "duration" : 3721
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26a7af7f462781f1",
+  "name" : "should verify our cars sub menu successfully opened",
+  "time" : {
+    "start" : 1636305946907,
+    "stop" : 1636305951457,
+    "duration" : 4550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1e7a12373cf0b85",
+  "name" : "\"before all\" hook for One Million Page",
+  "time" : {
+    "start" : 1636279000206,
+    "stop" : 1636279000245,
+    "duration" : 39
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "19a530c77126fd4e",
+  "name" : "should verify explore model mild hybrid cars link successfully opened",
+  "time" : {
+    "start" : 1636308373678,
+    "stop" : 1636308376724,
+    "duration" : 3046
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c024c4fa3d697f7",
+  "name" : "should verify volvo logo link successfully opened",
+  "time" : {
+    "start" : 1636307616664,
+    "stop" : 1636307623131,
+    "duration" : 6467
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db496cb2e58a4fe6",
+  "name" : "should play alex video",
+  "time" : {
+    "start" : 1636306292145,
+    "stop" : 1636306293237,
+    "duration" : 1092
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b8422c1f68176ef",
+  "name" : "should verify correct tab name",
+  "time" : {
+    "start" : 1636301422171,
+    "stop" : 1636301423920,
+    "duration" : 1749
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6de7bb4c74a06680",
+  "name" : "should play intro video",
+  "time" : {
+    "start" : 1636306737323,
+    "stop" : 1636306740214,
+    "duration" : 2891
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "147607aea721f731",
+  "name" : "should verify explore model learn link successfully opened",
+  "time" : {
+    "start" : 1636308466518,
+    "stop" : 1636308470043,
+    "duration" : 3525
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a270bf89ef623d61",
+  "name" : "should play amy video",
+  "time" : {
+    "start" : 1636302425183,
+    "stop" : 1636302425204,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13d9bdac32cd8ab3",
+  "name" : "should play alex video",
+  "time" : {
+    "start" : 1636302427264,
+    "stop" : 1636302427272,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "482e6efebb46b9b7",
+  "name" : "should play summer video",
+  "time" : {
+    "start" : 1636302423839,
+    "stop" : 1636302425179,
+    "duration" : 1340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffd453b3d62ca379",
+  "name" : "should verify footer legal link successfully opened",
+  "time" : {
+    "start" : 1636307851893,
+    "stop" : 1636307854968,
+    "duration" : 3075
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97b59628c615ae04",
+  "name" : "should play linda and molly video",
+  "time" : {
+    "start" : 1636306291115,
+    "stop" : 1636306292145,
+    "duration" : 1030
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6094a8da91202ba",
+  "name" : "should play amy video",
+  "time" : {
+    "start" : 1636306290134,
+    "stop" : 1636306291115,
+    "duration" : 981
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10ac94e91ba28004",
+  "name" : "should play summer video",
+  "time" : {
+    "start" : 1636306287452,
+    "stop" : 1636306290134,
+    "duration" : 2682
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de130272e86f0bf1",
+  "name" : "should verify footer cookies link successfully opened",
+  "time" : {
+    "start" : 1636307940105,
+    "stop" : 1636307943108,
+    "duration" : 3003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7d4f096174ea0",
+  "name" : "should verify footer social media link successfully opened",
+  "time" : {
+    "start" : 1636307386385,
+    "stop" : 1636307389451,
+    "duration" : 3066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74a54844de0a67cd",
+  "name" : "should verify privacy legal link successfully opened",
+  "time" : {
+    "start" : 1636294842515,
+    "stop" : 1636294845763,
+    "duration" : 3248
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c7909c732fb9d43",
+  "name" : "should verify car safety driver assistance link successfully opened",
+  "time" : {
+    "start" : 1636308765320,
+    "stop" : 1636308769522,
+    "duration" : 4202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9eee3e9c6cdd770e",
+  "name" : "should verify decades of innovation link successfully opened",
+  "time" : {
+    "start" : 1636294290426,
+    "stop" : 1636294293823,
+    "duration" : 3397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2430119c25199065",
+  "name" : "should verify explore model recharge link successfully opened",
+  "time" : {
+    "start" : 1636308071329,
+    "stop" : 1636308074640,
+    "duration" : 3311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d95935feea90fcd",
+  "name" : "should verify car safety link successfully opened",
+  "time" : {
+    "start" : 1636308613781,
+    "stop" : 1636308616843,
+    "duration" : 3062
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bc0fea7d5c1b0ae",
+  "name" : "should verify footer privacy link successfully opened",
+  "time" : {
+    "start" : 1636307783784,
+    "stop" : 1636307787395,
+    "duration" : 3611
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f42e344121c7f531",
+  "name" : "should verify decades of innovation link successfully opened",
+  "time" : {
+    "start" : 1636308535398,
+    "stop" : 1636308538709,
+    "duration" : 3311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "736d7633b55b729f",
+  "name" : "should verify car safety Child Safety link successfully opened",
+  "time" : {
+    "start" : 1636309100913,
+    "stop" : 1636309105682,
+    "duration" : 4769
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

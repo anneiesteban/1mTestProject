@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"ProductListCarousel-1\"]/descendant::a[@data-autoid=\"ProductListCarousel:cta1\"]"
+}

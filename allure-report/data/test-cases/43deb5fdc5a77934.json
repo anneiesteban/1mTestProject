@@ -1,0 +1,285 @@
+{
+  "uid" : "43deb5fdc5a77934",
+  "name" : "should verify correct tab name",
+  "fullName" : "One Million Page.should verify correct tab name",
+  "historyId" : "df7eedce770b355d180f02320517ce37",
+  "time" : {
+    "start" : 1636280198340,
+    "stop" : 1636280200347,
+    "duration" : 2007
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "tabName.getText is not a function",
+  "statusTrace" : "TypeError: tabName.getText is not a function\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\one.million.spec.js:21:28)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "tabName.getText is not a function",
+    "statusTrace" : "TypeError: tabName.getText is not a function\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\one.million.spec.js:21:28)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1636280198343,
+        "stop" : 1636280200346,
+        "duration" : 2003
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: tabName.getText is not a function\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\one.million.spec.js:21:28)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1636280198348,
+          "stop" : 1636280200346,
+          "duration" : 1998
+        },
+        "status" : "broken",
+        "statusMessage" : "TypeError: tabName.getText is not a function\n                    at Context.<anonymous> (C:\\Users\\Marianne\\volvo-1m\\test\\specs\\one.million.spec.js:21:28)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/url",
+          "time" : {
+            "start" : 1636280198354,
+            "stop" : 1636280198370,
+            "duration" : 16
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "ae5006526f195709",
+            "name" : "Request",
+            "source" : "ae5006526f195709.json",
+            "type" : "application/json",
+            "size" : 74
+          }, {
+            "uid" : "f60bf3b3dd993184",
+            "name" : "Response",
+            "source" : "f60bf3b3dd993184.json",
+            "type" : "application/json",
+            "size" : 1156
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636280198378,
+            "stop" : 1636280200189,
+            "duration" : 1811
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/elements",
+            "time" : {
+              "start" : 1636280198383,
+              "stop" : 1636280199733,
+              "duration" : 1350
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "e96804c98abc074a",
+              "name" : "Request",
+              "source" : "e96804c98abc074a.json",
+              "type" : "application/json",
+              "size" : 215
+            } ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 1,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "2442d0c80cce6da9",
+            "name" : "Request",
+            "source" : "2442d0c80cce6da9.json",
+            "type" : "application/json",
+            "size" : 215
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2,
+          "stepsCount" : 1,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/title",
+          "time" : {
+            "start" : 1636280200189,
+            "stop" : 1636280200345,
+            "duration" : 156
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "GET /session/:sessionId/screenshot",
+            "time" : {
+              "start" : 1636280200191,
+              "stop" : 1636280200203,
+              "duration" : 12
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "a2680010a1b94cdf",
+              "name" : "Response",
+              "source" : "a2680010a1b94cdf.json",
+              "type" : "application/json",
+              "size" : 83
+            } ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 1,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "POST /session/:sessionId/execute/sync",
+            "time" : {
+              "start" : 1636280200206,
+              "stop" : 1636280200225,
+              "duration" : 19
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "933e55cf052dcac0",
+              "name" : "Request",
+              "source" : "933e55cf052dcac0.json",
+              "type" : "application/json",
+              "size" : 8337
+            }, {
+              "uid" : "600d55e5ade15e1c",
+              "name" : "Response",
+              "source" : "600d55e5ade15e1c.json",
+              "type" : "application/json",
+              "size" : 93
+            } ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 2,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1636280200228,
+              "stop" : 1636280200249,
+              "duration" : 21
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "158a447d35094e5",
+              "name" : "Request",
+              "source" : "158a447d35094e5.json",
+              "type" : "application/json",
+              "size" : 215
+            }, {
+              "uid" : "ae13fee74c5802b8",
+              "name" : "Response",
+              "source" : "ae13fee74c5802b8.json",
+              "type" : "application/json",
+              "size" : 45
+            } ],
+            "parameters" : [ ],
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 2,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "a500eba6fa26032e",
+            "name" : "Screenshot",
+            "source" : "a500eba6fa26032e.png",
+            "type" : "image/png",
+            "size" : 80357
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 6,
+          "stepsCount" : 3,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "d716cfa5476a1ec7",
+          "name" : "Request",
+          "source" : "d716cfa5476a1ec7.json",
+          "type" : "application/json",
+          "size" : 74
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 11,
+        "stepsCount" : 7,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "176181b70262402c",
+        "name" : "Request",
+        "source" : "176181b70262402c.json",
+        "type" : "application/json",
+        "size" : 215
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 12,
+      "stepsCount" : 8,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1ba0910f481a7c8f",
+      "name" : "Response",
+      "source" : "1ba0910f481a7c8f.json",
+      "type" : "application/json",
+      "size" : 4
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 13,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify correct tab name"
+  }, {
+    "name" : "package",
+    "value" : "One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43deb5fdc5a77934.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

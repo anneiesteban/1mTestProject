@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636303747143' stop='1636303748643'>
+    <name>Our Cars One Million Page</name>
+    <title>Our Cars One Million Page</title>
+    <test-cases>
+        <test-case start='1636303747143' status='broken' stop='1636303748627'>
+            <name>should verify our cars sub menu successfully opened</name>
+            <title>should verify our cars sub menu successfully opened</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636303747146' status='broken' stop='1636303748626'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5f9f3a33-37ce-43c6-9313-31c9ad25ce8d-attachment.json' type='application/json' size='74'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636303747154' status='passed' stop='1636303748491'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='4a9235b1-90d9-4ee9-ba52-fe7d3a2381ac-attachment.json' type='application/json' size='59'/>
+                                <attachment title='Response' source='e30e4c27-fcd1-49f4-b5b6-e1ab16e11c56-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps>
+                                <step start='1636303747159' status='passed' stop='1636303748477'>
+                                    <name>GET /session/:sessionId/screenshot</name>
+                                    <title>GET /session/:sessionId/screenshot</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1636303748498' status='passed' stop='1636303748625'>
+                            <name>POST /session/:sessionId/execute/sync</name>
+                            <title>POST /session/:sessionId/execute/sync</title>
+                            <attachments>
+                                <attachment title='Request' source='4990c58f-5938-4b91-9254-cbd3cdbaeea7-attachment.json' type='application/json' size='8337'/>
+                                <attachment title='Screenshot' source='ec654ee0-d39f-461d-88f9-995f37278cf0-attachment.png' type='image/png' size='82400'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1636303748639' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f3cb17bc-8797-429e-83c0-348f3d8088a6-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='e91452e7-f57f-416d-ac57-b167cf497fd0-attachment.json' type='application/json' size='4'/>
+            </attachments>
+            <failure>
+                <message>ourCars is not defined</message>
+                <stack-trace>ReferenceError: ourCars is not defined
+                    at Context.&lt;anonymous> (C:\Users\Marianne\volvo-1m\test\specs\our.cars.spec.js:12:36)
+                    at Context.executeAsync (C:\Users\Marianne\volvo-1m\node_modules\@wdio\utils\build\shim.js:325:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\Marianne\volvo-1m\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

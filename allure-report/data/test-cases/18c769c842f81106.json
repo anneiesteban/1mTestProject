@@ -1,0 +1,230 @@
+{
+  "uid" : "18c769c842f81106",
+  "name" : "should verify our cars sub menu successfully opened",
+  "fullName" : "Our Cars One Million Page.should verify our cars sub menu successfully opened",
+  "historyId" : "43e072dd9fb7eb42505c5b50bde8f7e1",
+  "time" : {
+    "start" : 1636289539261,
+    "stop" : 1636289541461,
+    "duration" : 2200
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=95.0.4638.69)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00863AB3+2505395]\n                \tOrdinal0 [0x007FAE41+2076225]\n                \tOrdinal0 [0x00702498+1057944]\n                \tOrdinal0 [0x00704BC4+1067972]\n                \tOrdinal0 [0x00704A8E+1067662]\n                \tOrdinal0 [0x00704CF0+1068272]\n                \tOrdinal0 [0x0072C8B8+1231032]\n                \tOrdinal0 [0x00756D92+1404306]\n                \tOrdinal0 [0x00745A2A+1333802]\n                \tOrdinal0 [0x00755168+1397096]\n                \tOrdinal0 [0x007458BB+1333435]\n                \tOrdinal0 [0x007223E4+1188836]\n                \tOrdinal0 [0x0072323F+1192511]\n                \tGetHandleVerifier [0x009ECB36+1554566]\n                \tGetHandleVerifier [0x00A94A0C+2242396]\n                \tGetHandleVerifier [0x008F0E0B+523099]\n                \tGetHandleVerifier [0x008EFEB0+519168]\n                \tOrdinal0 [0x008002FD+2097917]\n                \tOrdinal0 [0x00804388+2114440]\n                \tOrdinal0 [0x008044C2+2114754]\n                \tOrdinal0 [0x0080E041+2154561]\n                \tBaseThreadInitThunk [0x7579FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77117A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77117A6E+238]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=95.0.4638.69)",
+    "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00863AB3+2505395]\n                \tOrdinal0 [0x007FAE41+2076225]\n                \tOrdinal0 [0x00702498+1057944]\n                \tOrdinal0 [0x00704BC4+1067972]\n                \tOrdinal0 [0x00704A8E+1067662]\n                \tOrdinal0 [0x00704CF0+1068272]\n                \tOrdinal0 [0x0072C8B8+1231032]\n                \tOrdinal0 [0x00756D92+1404306]\n                \tOrdinal0 [0x00745A2A+1333802]\n                \tOrdinal0 [0x00755168+1397096]\n                \tOrdinal0 [0x007458BB+1333435]\n                \tOrdinal0 [0x007223E4+1188836]\n                \tOrdinal0 [0x0072323F+1192511]\n                \tGetHandleVerifier [0x009ECB36+1554566]\n                \tGetHandleVerifier [0x00A94A0C+2242396]\n                \tGetHandleVerifier [0x008F0E0B+523099]\n                \tGetHandleVerifier [0x008EFEB0+519168]\n                \tOrdinal0 [0x008002FD+2097917]\n                \tOrdinal0 [0x00804388+2114440]\n                \tOrdinal0 [0x008044C2+2114754]\n                \tOrdinal0 [0x0080E041+2154561]\n                \tBaseThreadInitThunk [0x7579FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77117A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77117A6E+238]\n                ",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1636289539263,
+        "stop" : 1636289541461,
+        "duration" : 2198
+      },
+      "status" : "broken",
+      "statusMessage" : "Backtrace:\n                \tOrdinal0 [0x00863AB3+2505395]\n                \tOrdinal0 [0x007FAE41+2076225]\n                \tOrdinal0 [0x00702498+1057944]\n                \tOrdinal0 [0x00704BC4+1067972]\n                \tOrdinal0 [0x00704A8E+1067662]\n                \tOrdinal0 [0x00704CF0+1068272]\n                \tOrdinal0 [0x0072C8B8+1231032]\n                \tOrdinal0 [0x00756D92+1404306]\n                \tOrdinal0 [0x00745A2A+1333802]\n                \tOrdinal0 [0x00755168+1397096]\n                \tOrdinal0 [0x007458BB+1333435]\n                \tOrdinal0 [0x007223E4+1188836]\n                \tOrdinal0 [0x0072323F+1192511]\n                \tGetHandleVerifier [0x009ECB36+1554566]\n                \tGetHandleVerifier [0x00A94A0C+2242396]\n                \tGetHandleVerifier [0x008F0E0B+523099]\n                \tGetHandleVerifier [0x008EFEB0+519168]\n                \tOrdinal0 [0x008002FD+2097917]\n                \tOrdinal0 [0x00804388+2114440]\n                \tOrdinal0 [0x008044C2+2114754]\n                \tOrdinal0 [0x0080E041+2154561]\n                \tBaseThreadInitThunk [0x7579FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77117A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77117A6E+238]\n                ",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636289539268,
+          "stop" : 1636289541161,
+          "duration" : 1893
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1636289539272,
+            "stop" : 1636289541145,
+            "duration" : 1873
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "a5ddd18650f3eac4",
+            "name" : "Request",
+            "source" : "a5ddd18650f3eac4.json",
+            "type" : "application/json",
+            "size" : 62
+          } ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "715991f8dcba6664",
+          "name" : "Request",
+          "source" : "715991f8dcba6664.json",
+          "type" : "application/json",
+          "size" : 59
+        }, {
+          "uid" : "c9a57e884e58b51e",
+          "name" : "Response",
+          "source" : "c9a57e884e58b51e.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 3,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1636289541168,
+          "stop" : 1636289541196,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3b6a9cda1f3e513c",
+          "name" : "Request",
+          "source" : "3b6a9cda1f3e513c.json",
+          "type" : "application/json",
+          "size" : 8337
+        }, {
+          "uid" : "b4fc3f8183f759fc",
+          "name" : "Response",
+          "source" : "b4fc3f8183f759fc.json",
+          "type" : "application/json",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636289541197,
+          "stop" : 1636289541215,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "453c8e0293298e4",
+          "name" : "Request",
+          "source" : "453c8e0293298e4.json",
+          "type" : "application/json",
+          "size" : 59
+        }, {
+          "uid" : "61091686d8fc4864",
+          "name" : "Response",
+          "source" : "61091686d8fc4864.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/d8759580-5845-4a03-a13b-c05f1e467ccd/click",
+        "time" : {
+          "start" : 1636289541218,
+          "stop" : 1636289541310,
+          "duration" : 92
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1636289541318,
+          "stop" : 1636289541460,
+          "duration" : 142
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5770e307b8151686",
+          "name" : "Screenshot",
+          "source" : "5770e307b8151686.png",
+          "type" : "image/png",
+          "size" : 99265
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "fb1c77bdab9e46c2",
+        "name" : "Request",
+        "source" : "fb1c77bdab9e46c2.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 9,
+      "stepsCount" : 6,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 9,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify our cars sub menu successfully opened"
+  }, {
+    "name" : "package",
+    "value" : "Our Cars One Million Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18c769c842f81106.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

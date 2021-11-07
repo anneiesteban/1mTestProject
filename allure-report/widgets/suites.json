@@ -1,0 +1,114 @@
+{
+  "total" : 20,
+  "items" : [ {
+    "uid" : "22b2968652637a7b31791a8fcfde44b0",
+    "name" : "One Million Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "88dc9b6ecd01e45db76d5df4be5d04e1",
+    "name" : "Summer Video One Million Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "b6848e1e90d526ae54e83b98ddb182cd",
+    "name" : "Video One Million Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "3f1cfe6ba5d5259537e3c6cde8d8a9ff",
+    "name" : "Menu One Million Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "2e570cb87a3e287b90722eabf668c24f",
+    "name" : "Footer Privacy One Million Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "bde4261237cc602c28e538c6061f867f",
+    "name" : "Car Safety One Million Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "ff9b43c34a817b44fa9b6edf61b00141",
+    "name" : "My Login application",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "7b412d0ce51967ec99e2e4c170562dd9",
+    "name" : "Tab Title One Million Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "f7d0b67b3b47c5ccd52ca531afdc3cb7",
+    "name" : "Our Cars One Million Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e295b44c5b5084ace9474ef05d8f4126",
+    "name" : "Intro Video One Million Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

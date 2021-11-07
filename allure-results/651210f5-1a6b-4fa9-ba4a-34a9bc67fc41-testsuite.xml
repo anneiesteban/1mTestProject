@@ -1,0 +1,111 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636289539261' stop='1636289541462'>
+    <name>Our Cars One Million Page</name>
+    <title>Our Cars One Million Page</title>
+    <test-cases>
+        <test-case start='1636289539261' status='broken' stop='1636289541461'>
+            <name>should verify our cars sub menu successfully opened</name>
+            <title>should verify our cars sub menu successfully opened</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636289539263' status='broken' stop='1636289541461'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e7ea3f93-9da4-40bd-819f-c28cfec29974-attachment.json' type='application/json' size='74'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636289539268' status='passed' stop='1636289541161'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='13dba7ca-59ed-4f97-8c89-df505f23353e-attachment.json' type='application/json' size='59'/>
+                                <attachment title='Response' source='2f0d0c96-4a86-4936-ac0a-808ce47fbf2e-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps>
+                                <step start='1636289539272' status='passed' stop='1636289541145'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='5f64d68a-7645-4157-8f77-f63ca604203d-attachment.json' type='application/json' size='62'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1636289541168' status='passed' stop='1636289541196'>
+                            <name>POST /session/:sessionId/execute/sync</name>
+                            <title>POST /session/:sessionId/execute/sync</title>
+                            <attachments>
+                                <attachment title='Request' source='ebd80eb8-ae6a-42e2-8aa3-485da5ab779f-attachment.json' type='application/json' size='8337'/>
+                                <attachment title='Response' source='f8850157-dd06-4a1f-8c14-bf3006d8f11b-attachment.json' type='application/json' size='4'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1636289541197' status='passed' stop='1636289541215'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='ade7a13e-4f22-4464-a16b-67786d1a94a4-attachment.json' type='application/json' size='59'/>
+                                <attachment title='Response' source='b20c012a-f8f4-48b8-b1ef-46fe8b5031f9-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1636289541218' status='passed' stop='1636289541310'>
+                            <name>POST /session/:sessionId/element/d8759580-5845-4a03-a13b-c05f1e467ccd/click</name>
+                            <title>POST /session/:sessionId/element/d8759580-5845-4a03-a13b-c05f1e467ccd/click</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1636289541318' status='passed' stop='1636289541460'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='6688bfe2-93e2-461c-bb5d-6bf3e4983d44-attachment.png' type='image/png' size='99265'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: An invalid or illegal selector was specified
+                  (Session info: chrome=95.0.4638.69)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00863AB3+2505395]
+                	Ordinal0 [0x007FAE41+2076225]
+                	Ordinal0 [0x00702498+1057944]
+                	Ordinal0 [0x00704BC4+1067972]
+                	Ordinal0 [0x00704A8E+1067662]
+                	Ordinal0 [0x00704CF0+1068272]
+                	Ordinal0 [0x0072C8B8+1231032]
+                	Ordinal0 [0x00756D92+1404306]
+                	Ordinal0 [0x00745A2A+1333802]
+                	Ordinal0 [0x00755168+1397096]
+                	Ordinal0 [0x007458BB+1333435]
+                	Ordinal0 [0x007223E4+1188836]
+                	Ordinal0 [0x0072323F+1192511]
+                	GetHandleVerifier [0x009ECB36+1554566]
+                	GetHandleVerifier [0x00A94A0C+2242396]
+                	GetHandleVerifier [0x008F0E0B+523099]
+                	GetHandleVerifier [0x008EFEB0+519168]
+                	Ordinal0 [0x008002FD+2097917]
+                	Ordinal0 [0x00804388+2114440]
+                	Ordinal0 [0x008044C2+2114754]
+                	Ordinal0 [0x0080E041+2154561]
+                	BaseThreadInitThunk [0x7579FA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77117A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77117A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

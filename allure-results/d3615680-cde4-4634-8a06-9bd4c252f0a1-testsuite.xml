@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636283562298' stop='1636283563663'>
+    <name>Intro Video One Million Page</name>
+    <title>Intro Video One Million Page</title>
+    <test-cases>
+        <test-case start='1636283562298' status='broken' stop='1636283563659'>
+            <name>should play intro video</name>
+            <title>should play intro video</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636283562300' status='passed' stop='1636283563657'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='54e53a24-7ef5-46c2-a760-baa15411bb21-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Screenshot' source='c116c086-5e70-405e-872e-4b226e55b607-attachment.png' type='image/png' size='76989'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636283562306' status='passed' stop='1636283563536'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>acceptCookie is not defined</message>
+                <stack-trace>ReferenceError: acceptCookie is not defined
+                    at OneMillionPage.clickAcceptCookie (C:\Users\Marianne\volvo-1m\test\pageobjects\page.js:17:9)
+                    at OneMillionPage.clickAcceptCookie (C:\Users\Marianne\volvo-1m\test\pageobjects\one.million.page.js:11:21)
+                    at Context.&lt;anonymous> (C:\Users\Marianne\volvo-1m\test\specs\intro.video.spec.js:7:24)
+                    at Context.executeAsync (C:\Users\Marianne\volvo-1m\node_modules\@wdio\utils\build\shim.js:325:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\Marianne\volvo-1m\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

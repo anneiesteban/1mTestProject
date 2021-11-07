@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"vcc-site-footer\"]/div/footer/div/div/span[1]/span[2]/a"
+}
